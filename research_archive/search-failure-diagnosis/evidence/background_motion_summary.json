@@ -1,0 +1,7 @@
+{
+  "evaluated_previous_good_failed_crop_exits": 87,
+  "quality_pass": 84,
+  "background_consistent_within_30percent_gt_displacement": 0,
+  "method": "ORB background features excluding expanded GT boxes; ratio test0.75; partial-affine RANSAC3px; >=20inliers, ratio>=0.5, median error<=2px, inlier convex hull>=5percent image area",
+  "limits": "Offline evidence only. Background may contain independently moving objects, parallax or low texture. Quality rejection is unknown, not target-only motion. Consistency is not proof of camera causality."
+}

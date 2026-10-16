@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "exit_after_good",
+    "sequence": "20190925_130434_1_8",
+    "frame": 548
+  },
+  {
+    "kind": "exit_after_good",
+    "sequence": "20190925_140917_1_3",
+    "frame": 67
+  },
+  {
+    "kind": "coverage_before_recovery",
+    "sequence": "3700000000002_105103_8",
+    "frame": 540
+  },
+  {
+    "kind": "coverage_before_recovery",
+    "sequence": "new8_train-new",
+    "frame": 816
+  },
+  {
+    "kind": "covered_loss",
+    "sequence": "20190925_130434_1_8",
+    "frame": 913
+  },
+  {
+    "kind": "covered_loss",
+    "sequence": "20190925_133630_1_9",
+    "frame": 290
+  },
+  {
+    "kind": "shrink_with_reliable_history",
+    "sequence": "20190925_141417_1_1",
+    "frame": 437
+  },
+  {
+    "kind": "shrink_with_reliable_history",
+    "sequence": "3700000000002_105103_3",
+    "frame": 149
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "split": "val",
+  "sequences": 90,
+  "baseline": "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/baseline_val_v2_full.json",
+  "baseline_report_sha256": "85d2671c2edcaaa7c25cfe7c356a59272e01d4d2fd79e31bfc1f63de6a3560c2",
+  "frozen_checkpoint_sha256": "c259c341eca7179ff5612a034898678337f9d10c2c8d456ca4aae184de7a0564",
+  "full_coverage_threshold": 0.999,
+  "failure_iou": 0.2,
+  "recovery_iou": 0.5,
+  "recovery_consecutive_frames": 3,
+  "failure_consecutive_frames": 5,
+  "frame_index": "zero-based; initialization excluded",
+  "shrink_factors": [
+    2.0,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "task_counts": {
+    "uniform": 2880,
+    "online_gate_sample": 2769,
+    "covered_failure": 1125
+  },
+  "task_total_deduplicated": 6391,
+  "history_window": 5,
+  "online_gate": "previous five presence>=0.8 and peak>=0.5; center steps<=0.25 current baseline crop side; sqrt-area max/min<=1.5; no current-frame output or GT",
+  "causal_interpretation": "descriptive decomposition and controlled crop intervention; no attribution of motion to camera/target or occlusion without additional evidence"
+}

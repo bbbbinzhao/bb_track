@@ -1,0 +1,180 @@
+{
+  "local_backup": "/home/zhaoyoubin/project/project/FocusTrack-main/output/version_archives/20261016/search-failure-diagnosis-full.tar.gz",
+  "backup_sha256": "6e846c3282f9924d93b84ae23dba18de7e87dc15569b78bc6171ddd9f5e3cb57",
+  "files": [
+    {
+      "path": "background_motion.csv",
+      "bytes": 20477,
+      "sha256": "48b29e7365f1edfd0b580fc4d62c3eca9ac2d071c9032d85807e1bda74d1d6eb"
+    },
+    {
+      "path": "background_motion_summary.json",
+      "bytes": 549,
+      "sha256": "b5bb84fbd993aafb065efef5a638e4b44637d51e535a33c85bb51259981c6796"
+    },
+    {
+      "path": "covered_failures_per_sequence.csv",
+      "bytes": 4136,
+      "sha256": "ac0348ad909c69e54dcef1c571a991e0693a9d6c53896c9f6585ddc1aaba884b"
+    },
+    {
+      "path": "events.csv",
+      "bytes": 60341,
+      "sha256": "4ff0cd0c4109d616d2d45dafbc7b7f0d46bc67c762e25e04a3ff98dbb499db83"
+    },
+    {
+      "path": "events.json",
+      "bytes": 365829,
+      "sha256": "ce008adc17552ff1dcdc68bffeae67f5d2668b101e27ac72cde694215c96ecc9"
+    },
+    {
+      "path": "figures/00_exit_after_good.png",
+      "bytes": 418609,
+      "sha256": "2996290485b883c3ca730febef205a39a624616261e52f045427f4b70cd35e2c"
+    },
+    {
+      "path": "figures/01_exit_after_good.png",
+      "bytes": 393322,
+      "sha256": "38a15930032e9496ef490e043953fe3373ead2b863e1c61cbc50228ce4c86059"
+    },
+    {
+      "path": "figures/02_coverage_before_recovery.png",
+      "bytes": 650818,
+      "sha256": "ab706113cc6e50f575358fb56eced36f81db7a58cf2a3d613f002e963604a8ed"
+    },
+    {
+      "path": "figures/03_coverage_before_recovery.png",
+      "bytes": 219115,
+      "sha256": "71834a258ec0d6978ad8ba398ff66cc54def4f8795c98c841b4a510ebb06fa9e"
+    },
+    {
+      "path": "figures/04_covered_loss.png",
+      "bytes": 423697,
+      "sha256": "d8883c16a8a64bf818458cee8f60dd4d469dd252dbfc5c7956daaea659d0a00e"
+    },
+    {
+      "path": "figures/05_covered_loss.png",
+      "bytes": 635640,
+      "sha256": "318607351ca582c6c3c861b37056c17262849e7a98f31cefb22ac93c57cf092b"
+    },
+    {
+      "path": "figures/06_shrink_with_reliable_history.png",
+      "bytes": 846833,
+      "sha256": "1c2fa71929981cae5097096ff17bddf65b761b4fbd43144b4ca60c64bebc0bd5"
+    },
+    {
+      "path": "figures/07_shrink_with_reliable_history.png",
+      "bytes": 1051418,
+      "sha256": "62263180f06f02faa252680bd72ab8afbb3677c1d00b826897de49fce190002b"
+    },
+    {
+      "path": "figures/diagnostic_overview.png",
+      "bytes": 154173,
+      "sha256": "e5697b38e7eed7207104fc273816a331b98fcd7be9c9696751c3e53fe2f16b6a"
+    },
+    {
+      "path": "frames.csv",
+      "bytes": 23404735,
+      "sha256": "b2efd465dba52aecc55c97b2efacdd24c0ded3665e29fa19dbbe296a486f55b5"
+    },
+    {
+      "path": "gpu0.log",
+      "bytes": 3047,
+      "sha256": "bda01776451d6ff114703c88f090d39c5a86ce5e38c0ff600ea3e7de20e03a8d"
+    },
+    {
+      "path": "gpu1.log",
+      "bytes": 3049,
+      "sha256": "47b40ac4fea4e2a11f42ab473cfa09e351fe7b0190593b51be1f725806abd119"
+    },
+    {
+      "path": "gpu2.log",
+      "bytes": 2997,
+      "sha256": "32087506903e50bedd3c86f01bc74d5720041a8891ead8b400d2cfa817c89a89"
+    },
+    {
+      "path": "gpu3.log",
+      "bytes": 3001,
+      "sha256": "dde41e5a9c67b466b481ba439ddce6c7e6b62ef5ceaa3cea125f49f9c22f7c37"
+    },
+    {
+      "path": "illustrative_cases.json",
+      "bytes": 809,
+      "sha256": "2b719ff0338dd23d767ece1682d7ea3ff06240afd4068d1f8048c67aedec592d"
+    },
+    {
+      "path": "interventions/shard_00.json",
+      "bytes": 3696157,
+      "sha256": "51b0b10928b238d9f86651faa1279e6afa84af0291f84ed804900a9734d18271"
+    },
+    {
+      "path": "interventions/shard_01.json",
+      "bytes": 4378623,
+      "sha256": "3f61ef999c2ac1c4f5e5954f7a4bc75770049cf9de5562e56049b83d54202973"
+    },
+    {
+      "path": "interventions/shard_02.json",
+      "bytes": 3477632,
+      "sha256": "7d0fd0779b5280d100bf39d263ea488b2a5c00b05760625d7a8953689cf05c11"
+    },
+    {
+      "path": "interventions/shard_03.json",
+      "bytes": 3807351,
+      "sha256": "a97bbac67b6a478974e54d8335b140accd5a900faf4a72e382c63d73a647a140"
+    },
+    {
+      "path": "interventions/smoke_shard_00.json",
+      "bytes": 58986,
+      "sha256": "c7399236b78d70b24bc5b28c612af7965c7aa5ae7301677fc1d72ac24df4942a"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 1133,
+      "sha256": "433c75c3ea39adfc0e2f3992fcf4777cb84c144381c8fd1371d90529b4c3613a"
+    },
+    {
+      "path": "report.md",
+      "bytes": 21470,
+      "sha256": "ddf446376255ba2c52eeac907a127ea6aae6195be45d7705bb0b5edeb1d99715"
+    },
+    {
+      "path": "sequences.csv",
+      "bytes": 5473,
+      "sha256": "98b6d269de27b9435a317b1ec44e3308c00f37da2b844adc022b99fe7c89cef9"
+    },
+    {
+      "path": "shrink_candidates.csv",
+      "bytes": 3856289,
+      "sha256": "f3e2fee8863c574ef3d5d7a607f910eaa97db8242c5be30db11c4f57e1dafd4f"
+    },
+    {
+      "path": "shrink_opportunities.csv",
+      "bytes": 80758,
+      "sha256": "880876c886a5ad55dbe8230505761950b40a0fe55de587340d4648800aca28b1"
+    },
+    {
+      "path": "shrink_summary.json",
+      "bytes": 7533,
+      "sha256": "c5c6e775f7312bb11c107a836909ca8f1dc6aa1d776385a2974c51ecb99962fe"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 11307,
+      "sha256": "0393dfc3cbf036580c26dedab03c84ce058e0e491d76ef103947389ea0cf914c"
+    },
+    {
+      "path": "tasks.json",
+      "bytes": 1403884,
+      "sha256": "6f51f6832cda6c200706ab2b152185e9340e2a042d4b9e7eb632fc6583c68e05"
+    }
+  ],
+  "source_files_sha256": {
+    "tracking/diagnose_search_failures.py": "13b2409082c921869f470275f90dc1c3e0288239a0eb69c74ceba91e1b201892",
+    "tracking/visualize_search_failures.py": "6251e9795e5ffae9d92f366092cf52d892640f3980b4bd0c7044e33a963ac110",
+    "tracking/test_search_failure_diagnosis.py": "aa121bdebe8d57291e33ce344ea81eb7b13265592d4e553e4a9f56a5a20228cd"
+  },
+  "intervention_tasks": 6391,
+  "baseline_replay_max_bbox_error": 0.0,
+  "protocol_tests_passed": 10,
+  "note": "Full local outputs and selected tracked evidence; no newly trained policy or closed-loop gain claimed."
+}
