@@ -1,0 +1,12 @@
+{
+  "source_archive": "/home/zhaoyoubin/project/project/FocusTrack-main.zip",
+  "source_archive_sha256": "53612f2a94f4b995bbdd656480b6b409bc476e53d99d828a7f2f8e889cb293c5",
+  "baseline_commit": "10d7c2870653f993f96a45519b696b3ddd094e75",
+  "original_worktree": "/tmp/focustrack-original-h_sl5mj_",
+  "local_backup": "/home/zhaoyoubin/project/project/FocusTrack-main/output/version_archives/20261016/search-validation-full.tar.gz",
+  "local_backup_sha256": "14a4a0581633eef000e48660ab2b4b359e3400f49630e6fa322f8b4f82d34d9b",
+  "backup_files": 3710,
+  "backup_source_bytes": 4492767702,
+  "tracked_report_files": 83,
+  "frozen_checkpoint_sha256": "c259c341eca7179ff5612a034898678337f9d10c2c8d456ca4aae184de7a0564"
+}

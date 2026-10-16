@@ -1,0 +1,9 @@
+{
+  "teacher_root": "output/search_policy/fixed8_horizon_gate/train",
+  "observation_feature": "crop factor = observation[29] * 8",
+  "train_states": 1413,
+  "train_crop_factor_counts": {"4": 0, "6": 180, "8": 1233},
+  "development_states": 150,
+  "development_crop_factor_counts": {"4": 0, "6": 20, "8": 130},
+  "note": "Factor six occurs at the baseline first tracked frame. This audit describes training support; it does not establish that support mismatch is the sole cause of deployment degradation."
+}

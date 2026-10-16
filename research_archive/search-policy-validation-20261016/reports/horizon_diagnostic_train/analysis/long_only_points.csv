@@ -1,0 +1,11 @@
+sequence,frame,split,continuation,uniform,event,policy_gain64,oracle64_gain
+01_4485_2985-4484,864,train180,fixed8,True,False,0.0,0.0
+01_4485_2985-4484,864,train180,aggregate,True,False,0.0,0.0
+20190926_183400_1_9,222,train180,fixed8,True,False,0.0,0.006636119436467136
+20190926_183400_1_9,222,train180,aggregate,True,False,0.0,0.0008300037149929218
+3700000000002_112459_1,579,dev20,fixed8,True,False,0.0,0.0
+3700000000002_112459_1,579,dev20,aggregate,True,False,0.0,0.0
+3700000000003_101944_1,294,train180,fixed8,True,False,-0.37818014893430096,0.0
+3700000000003_101944_1,294,train180,aggregate,True,False,0.0,0.0
+3700000000003_153109_1,579,train180,fixed8,True,False,0.0,0.0
+3700000000003_153109_1,579,train180,aggregate,True,False,0.0,0.0

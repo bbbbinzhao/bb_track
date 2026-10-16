@@ -12,6 +12,10 @@ from lib.train.data.processing_utils import sample_target, transform_image_to_cr
 import cv2
 import os
 import numpy as np
+import copy
+import time
+
+from lib.test.utils.search_region import CropGeometry, MotionState, make_observation
 
 from lib.test.tracker.data_utils import Preprocessor
 from lib.utils.box_ops import clip_box
@@ -22,10 +26,11 @@ from lib.test.tracker.vis_utils import vis_attn_maps, vis_feature_maps, vis_attn
 
 
 class FocusTrack(BaseTracker):
-    def __init__(self, params, dataset_name):
+    def __init__(self, params, dataset_name, network=None):
         super(FocusTrack, self).__init__(params)
-        network = build_focustrack(params.cfg, training=False)
-        network.load_state_dict(torch.load(self.params.checkpoint, map_location='cpu')['net'], strict=True)
+        if network is None:
+            network = build_focustrack(params.cfg, training=False)
+            network.load_state_dict(torch.load(self.params.checkpoint, map_location='cpu')['net'], strict=True)
         self.cfg = params.cfg
         self.network = network.cuda()
         self.network.eval()
@@ -69,6 +74,10 @@ class FocusTrack(BaseTracker):
         self.search_factor = self.params.search_factor
         self.flag = 1
         self.use_hann=True
+        self.diagnostics_enabled = getattr(params, 'search_diagnostics', False)
+        self._active_crop = None
+        self.last_diagnostic = None
+        self.motion = MotionState()
 
     def initialize(self, image, info: dict):
         # forward the template once
@@ -86,6 +95,13 @@ class FocusTrack(BaseTracker):
         self.state = info['init_bbox']
         self.former_box = info['init_bbox']
         self.frame_id = 0
+        self.search_factor = self.base_factor
+        self.use_hann = True
+        self.flag = 1
+        self.motion = MotionState()
+        self.motion.previous_box = np.asarray(self.state, dtype=np.float64).copy()
+        self.last_diagnostic = None
+        self._active_crop = None
         if self.save_all_boxes:
             '''save all predicted boxes'''
             all_boxes_save = info['init_bbox'] * self.cfg.MODEL.NUM_OBJECT_QUERIES
@@ -100,14 +116,28 @@ class FocusTrack(BaseTracker):
         self.T_score = self.cfg.TEST.T_SCORE
         
         
-    def track(self, image, info: dict = None):
+    def track(self, image, info: dict = None, search_region=None):
+        if search_region is not None and self.use_grid:
+            raise ValueError('Search-policy overrides require USE_GRID=False')
+        policy_override = search_region is not None
+        started = time.perf_counter()
         H, W, _ = image.shape
         W_H = np.array([W, H])
         self.frame_id += 1
         self.former_box = self.state
+        crop_box = list(self.state)
+        crop_factor = self.search_factor
+        if search_region is not None:
+            crop_box[:2] = [search_region.center_xy[0] - crop_box[2] / 2,
+                            search_region.center_xy[1] - crop_box[3] / 2]
+            crop_factor = search_region.factor
+            self.search_factor = crop_factor
+        geometry = CropGeometry.from_box(crop_box, crop_factor, self.params.search_size)
+        self._active_crop = geometry if search_region is not None else None
+        used_hann = self.use_hann
         
         if not self.use_grid:
-            x_patch_arr, resize_factor, x_amask_arr = sample_target(image, self.state, self.search_factor,
+            x_patch_arr, resize_factor, x_amask_arr = sample_target(image, crop_box, crop_factor,
                                                                     output_sz=self.params.search_size)  # (x1, y1, w, h)
         else:
             x_patch_arr, x_amask_arr, resize_factor = sample_target(image, self.state, self.search_factor)  # (x1, y1, w, h)
@@ -174,22 +204,46 @@ class FocusTrack(BaseTracker):
             self.state = clip_box(self.map_box_back_fullsize(unwraped_box[0].tolist(), x_patch_h), H, W, margin=10)
         
       
+        sra_next_factor = self.search_factor
         if self.cfg.TEST.USE_REGION_ADJUST:
             self.flag = F.softmax(out_dict['logits'].cpu(), dim=1)[0][-1].item()
             if self.flag < self.T_logits:  
                 if pred_score_map.max()< self.T_score: 
                     self.use_hann=False
-                    self.search_factor = self.search_factor + self.step
-                    if self.search_factor > self.max_search_area_factor:
-                        self.search_factor = self.max_search_area_factor
+                    sra_next_factor = min(self.search_factor + self.step,
+                                          self.max_search_area_factor)
+                    if not policy_override:
+                        self.search_factor = self.search_factor + self.step
+                        if self.search_factor > self.max_search_area_factor:
+                            self.search_factor = self.max_search_area_factor
                 else:   
-                    self.search_factor = self.base_factor
+                    sra_next_factor = self.base_factor
+                    if not policy_override:
+                        self.search_factor = self.base_factor
                     self.use_hann=True
             else: 
-                self.search_factor = self.base_factor  
+                sra_next_factor = self.base_factor
+                if not policy_override:
+                    self.search_factor = self.base_factor
                 self.use_hann=True
                 
         
+        if self.diagnostics_enabled:
+            presence = F.softmax(out_dict['logits'], dim=1)[0, -1].item()
+            raw_score = pred_score_map.detach().float().cpu().squeeze()
+            reliable = presence >= self.T_logits and float(raw_score.max()) >= self.T_score
+            scale_change = self.motion.update(self.state, reliable)
+            observation = make_observation(raw_score, presence, self.state, self.motion.velocity,
+                                           scale_change, geometry, image.shape)
+            self.last_diagnostic = {
+                'bbox': list(self.state), 'crop': geometry.as_dict(), 'presence': presence,
+                'max_score': float(raw_score.max()), 'use_hann': used_hann,
+                'next_use_hann': self.use_hann, 'next_factor': float(self.search_factor),
+                'sra_next_factor': float(sra_next_factor),
+                'velocity': self.motion.velocity.tolist(), 'observation': observation.numpy(),
+                'score_map': raw_score.numpy(), 'elapsed': time.perf_counter() - started,
+            }
+
         if self.debug:
             if not self.use_visdom:
                 # green for gt
@@ -311,11 +365,26 @@ class FocusTrack(BaseTracker):
 
     def map_box_back(self, pred_box: list, resize_factor: float):
         cx_prev, cy_prev = self.state[0] + 0.5 * self.state[2], self.state[1] + 0.5 * self.state[3]
+        if self._active_crop is not None:
+            cx, cy, w, h = pred_box
+            return [self._active_crop.origin_xy[0] + cx - w / 2,
+                    self._active_crop.origin_xy[1] + cy - h / 2, w, h]
         cx, cy, w, h = pred_box
         half_side = 0.5 * self.params.search_size / resize_factor
         cx_real = cx + (cx_prev - half_side)
         cy_real = cy + (cy_prev - half_side)
         return [cx_real - 0.5 * w, cy_real - 0.5 * h, w, h]
+
+    def snapshot(self):
+        if self.use_grid or self.debug:
+            raise ValueError('Snapshots support non-grid, non-debug tracking only')
+        fields = ('state', 'former_box', 'frame_id', 'search_factor', 'use_hann', 'flag',
+                  'motion', 'last_diagnostic', '_active_crop')
+        return {name: copy.deepcopy(getattr(self, name)) for name in fields}
+
+    def restore(self, snapshot):
+        for name, value in snapshot.items():
+            setattr(self, name, copy.deepcopy(value))
 
     def map_box_back_batch(self, pred_box: torch.Tensor, resize_factor: float):
         cx_prev, cy_prev = self.state[0] + 0.5 * self.state[2], self.state[1] + 0.5 * self.state[3]

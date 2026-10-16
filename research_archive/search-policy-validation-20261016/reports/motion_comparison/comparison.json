@@ -1,0 +1,690 @@
+{
+  "baseline_report": "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/full_val_analysis/baseline_audited.json",
+  "candidate_report": "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/motion_val_v2_full.json",
+  "sequences": 90,
+  "metrics": {
+    "visible_iou": {
+      "baseline_mean": 0.6993561351012303,
+      "candidate_mean": 0.7029260962574283,
+      "delta_mean": 0.0035699611561979617,
+      "delta_ci_95": [
+        -0.0036238197442621965,
+        0.010543620704036943
+      ],
+      "positive_sequence_rate": 0.8111111111111111
+    },
+    "visible_auc": {
+      "baseline_mean": 0.6925981204243018,
+      "candidate_mean": 0.6959040486312009,
+      "delta_mean": 0.003305928206899041,
+      "delta_ci_95": [
+        -0.003251508560415787,
+        0.009693428424743331
+      ],
+      "positive_sequence_rate": 0.7555555555555555
+    },
+    "mixed_measure": {
+      "baseline_mean": 0.6911767124032157,
+      "candidate_mean": 0.6945936673883508,
+      "delta_mean": 0.003416954985135193,
+      "delta_ci_95": [
+        -0.003737688344423408,
+        0.010289159018077957
+      ],
+      "positive_sequence_rate": 0.8111111111111111
+    },
+    "recovery_rate_30": {
+      "baseline_mean": 0.5046296296296295,
+      "candidate_mean": 0.5601851851851851,
+      "delta_mean": 0.05555555555555555,
+      "delta_ci_95": [
+        0.0,
+        0.16666666666666666
+      ],
+      "positive_sequence_rate": 0.05555555555555555
+    },
+    "recovery_latency": {
+      "baseline_mean": 8.1,
+      "candidate_mean": 7.8,
+      "delta_mean": -0.3,
+      "delta_ci_95": [
+        -1.5,
+        0.6
+      ],
+      "positive_sequence_rate": 0.2
+    }
+  },
+  "per_sequence_deltas": {
+    "03_7951_1500-2999": {
+      "visible_iou": 0.003504062670586394,
+      "visible_auc": 0.003115571297389541,
+      "mixed_measure": 0.003391932665127606,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": null
+    },
+    "20190925_130434_1_1": {
+      "visible_iou": 0.00012276198714800124,
+      "visible_auc": -0.000286000286000343,
+      "mixed_measure": 0.0001226392251608699,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_130434_1_5": {
+      "visible_iou": 0.003585306502457364,
+      "visible_auc": 0.0028123361456692253,
+      "mixed_measure": 0.003581721195955012,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_130434_1_6": {
+      "visible_iou": 0.0009872794019861741,
+      "visible_auc": 0.0019543352876686404,
+      "mixed_measure": 0.0009862921225841648,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_130434_1_8": {
+      "visible_iou": 0.00595827301709706,
+      "visible_auc": 0.005910672577339571,
+      "mixed_measure": 0.005952314744080089,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_131530_1_3": {
+      "visible_iou": 0.003378842886465838,
+      "visible_auc": 0.003146003146002996,
+      "mixed_measure": 0.003375464043579246,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_133630_1_9": {
+      "visible_iou": 0.02309980374359466,
+      "visible_auc": 0.021307021307021223,
+      "mixed_measure": 0.023076703939851173,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_140917_1_3": {
+      "visible_iou": 0.0006250011346582429,
+      "visible_auc": -0.0006680026720105037,
+      "mixed_measure": 0.000624375507896846,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_140917_1_6": {
+      "visible_iou": -0.07078319307608816,
+      "visible_auc": -0.06544639877973224,
+      "mixed_measure": -0.07071240988301208,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_141417_1_1": {
+      "visible_iou": 6.405596184966278e-05,
+      "visible_auc": -0.001048667715334295,
+      "mixed_measure": 6.399190588779469e-05,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_141417_1_6": {
+      "visible_iou": 0.002983060397204751,
+      "visible_auc": 0.0021450021450024614,
+      "mixed_measure": 0.002980077336807496,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_141417_1_7": {
+      "visible_iou": 0.003443783426947622,
+      "visible_auc": 0.0038133371466704258,
+      "mixed_measure": 0.003440339643520862,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_143900_1_1": {
+      "visible_iou": 0.042818571995045684,
+      "visible_auc": 0.03956337289670642,
+      "mixed_measure": 0.042775753423050844,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_143900_1_2": {
+      "visible_iou": 0.0014233153623460781,
+      "visible_auc": 0.001716001716001725,
+      "mixed_measure": 0.0014218920469837304,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_143900_1_7": {
+      "visible_iou": 0.0012698166572917557,
+      "visible_auc": 0.001048667715334184,
+      "mixed_measure": 0.001268546840634599,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_152412_1_3": {
+      "visible_iou": 0.06509661509379139,
+      "visible_auc": 0.06000191241155106,
+      "mixed_measure": 0.0648362286334161,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": 0.0
+    },
+    "20190925_152412_1_5": {
+      "visible_iou": -0.00380915877213972,
+      "visible_auc": -0.003241336574669962,
+      "mixed_measure": -0.003805349613367648,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_183946_1_1": {
+      "visible_iou": 0.0004988047864309397,
+      "visible_auc": 0.00025656814449925847,
+      "mixed_measure": 0.0004982678598577372,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_183946_1_2": {
+      "visible_iou": -0.0024644651569135645,
+      "visible_auc": -0.00250041673612289,
+      "mixed_measure": -0.002461592819900882,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_183946_1_3": {
+      "visible_iou": -0.00037908024647836935,
+      "visible_auc": 0.000286000286000343,
+      "mixed_measure": -0.0003787011662318429,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_194211_1_3": {
+      "visible_iou": 0.00020090496131619506,
+      "visible_auc": 0.0,
+      "mixed_measure": 0.0001969310170264471,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": 1.0
+    },
+    "20190925_194211_1_4": {
+      "visible_iou": -0.0015244487573002896,
+      "visible_auc": -0.002272382972276943,
+      "mixed_measure": -0.0015228338751419601,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_200320_1_4": {
+      "visible_iou": 0.001268095160354421,
+      "visible_auc": 0.0020903436320997004,
+      "mixed_measure": 0.001266738908846099,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_200320_1_8": {
+      "visible_iou": 0.0026433840487335436,
+      "visible_auc": 0.0,
+      "mixed_measure": 0.002575604970560863,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_205804_1_5": {
+      "visible_iou": 0.0006558416455095806,
+      "visible_auc": 0.0014175460702472442,
+      "mixed_measure": 0.0006189889411831739,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": 0.0
+    },
+    "20190925_205804_1_6": {
+      "visible_iou": 0.0038112807518330127,
+      "visible_auc": 0.0036301516122141386,
+      "mixed_measure": 0.0036792883448431013,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": -1.0
+    },
+    "20190925_210802_1_3": {
+      "visible_iou": 0.0017721415918572347,
+      "visible_auc": 0.001038583372280133,
+      "mixed_measure": 0.0017492506348041337,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": 0.0
+    },
+    "20190925_210802_1_6": {
+      "visible_iou": 0.001231328403925036,
+      "visible_auc": 0.0018803679422676467,
+      "mixed_measure": 0.001230015687076702,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_210802_1_8": {
+      "visible_iou": -0.0018713886643360045,
+      "visible_auc": -0.0022997835497835517,
+      "mixed_measure": -0.0018687342123300255,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_213001_1_1": {
+      "visible_iou": 0.0016073591041675384,
+      "visible_auc": 0.0012597631645250296,
+      "mixed_measure": 0.0016052357764207992,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_213001_1_3": {
+      "visible_iou": 0.002715285477724372,
+      "visible_auc": 0.0018613308515585958,
+      "mixed_measure": 0.0027123404826291386,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_222534_1_5": {
+      "visible_iou": 0.0030749599025423624,
+      "visible_auc": 0.002002002002002068,
+      "mixed_measure": 0.0030718849426395467,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_222534_1_7": {
+      "visible_iou": 0.01124661202813615,
+      "visible_auc": 0.010592613799026651,
+      "mixed_measure": 0.011235354158238176,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190925_222534_1_8": {
+      "visible_iou": -0.0006422487087662798,
+      "visible_auc": -0.0011180566143211834,
+      "mixed_measure": -0.0006415640086503416,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_095902_1_3": {
+      "visible_iou": 0.0010006752401962027,
+      "visible_auc": 0.0011352885525069967,
+      "mixed_measure": 0.0007570238540562935,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": 0.0
+    },
+    "20190926_095902_1_8": {
+      "visible_iou": 0.00030868506494552417,
+      "visible_auc": 0.0004382120946537782,
+      "mixed_measure": 0.00030189399351665536,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": null
+    },
+    "20190926_103046_1_2": {
+      "visible_iou": 0.001106573468915073,
+      "visible_auc": 0.001334668001334749,
+      "mixed_measure": 0.0011054668954462166,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_103046_1_8": {
+      "visible_iou": 0.0031790149069933493,
+      "visible_auc": 0.0045931758530182165,
+      "mixed_measure": 0.003172769298138811,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_130341_1_5": {
+      "visible_iou": 0.0018744804774175616,
+      "visible_auc": 0.0018113351446683579,
+      "mixed_measure": 0.0018726059969401687,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_133516_1_2": {
+      "visible_iou": 0.00022775938895425174,
+      "visible_auc": -0.000762667429334174,
+      "mixed_measure": 0.00022753162956523632,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_133516_1_3": {
+      "visible_iou": 0.0017891288195290844,
+      "visible_auc": 0.001811335144668469,
+      "mixed_measure": 0.001787339690709655,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_133516_1_5": {
+      "visible_iou": 0.0016130251008178442,
+      "visible_auc": 0.001430001430001493,
+      "mixed_measure": 0.0016114120757170225,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_133516_1_6": {
+      "visible_iou": 0.0008708468633583655,
+      "visible_auc": 0.0005243338576673695,
+      "mixed_measure": 0.0008699760164949666,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_141816_1_2": {
+      "visible_iou": 0.00015821344249555835,
+      "visible_auc": -0.00028600028600012095,
+      "mixed_measure": 0.00015805522905298908,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_141816_1_4": {
+      "visible_iou": 0.0009151647069896018,
+      "visible_auc": 0.000858000858000918,
+      "mixed_measure": 0.0009142495422826968,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_141816_1_6": {
+      "visible_iou": -0.000755443095026398,
+      "visible_auc": 0.00019066685733348798,
+      "mixed_measure": -0.0007546876519313184,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_141816_1_9": {
+      "visible_iou": 0.006803094943910626,
+      "visible_auc": 0.006138006138005969,
+      "mixed_measure": 0.006544577336042079,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": -5.0
+    },
+    "20190926_142435_1_9": {
+      "visible_iou": 0.0006957043832287457,
+      "visible_auc": 0.0009587727708532112,
+      "mixed_measure": 0.0006933776127162616,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_143632_1_2": {
+      "visible_iou": -0.0028781377224482707,
+      "visible_auc": -0.0035750035750037323,
+      "mixed_measure": -0.0028752595847258977,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_143632_1_4": {
+      "visible_iou": 0.0026375402033234074,
+      "visible_auc": 0.0023356690023353943,
+      "mixed_measure": 0.0026349026631200534,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_143632_1_8": {
+      "visible_iou": 0.0005628894326514811,
+      "visible_auc": 0.0009046796611564822,
+      "mixed_measure": 0.0005619189336296682,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_144550_1_1": {
+      "visible_iou": 0.0037899123921296685,
+      "visible_auc": 0.003527336860670194,
+      "mixed_measure": 0.0037861224797376414,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_144550_1_10": {
+      "visible_iou": -0.00043577080690604397,
+      "visible_auc": -0.0011010184420594538,
+      "mixed_measure": -0.00043326637698126724,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_144550_1_4": {
+      "visible_iou": 0.0018753334506220742,
+      "visible_auc": 0.0010963344296679445,
+      "mixed_measure": 0.0018734581171715448,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_144550_1_7": {
+      "visible_iou": 0.0017305271224600238,
+      "visible_auc": 0.002192668859335556,
+      "mixed_measure": 0.001728796595337645,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_183400_1_1": {
+      "visible_iou": -0.00015604920571521408,
+      "visible_auc": -0.0003336670003338815,
+      "mixed_measure": -0.0001558931565095456,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_183400_1_4": {
+      "visible_iou": 0.0002947882106842936,
+      "visible_auc": 0.000858000858000918,
+      "mixed_measure": 0.0002944934224735629,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_183400_1_6": {
+      "visible_iou": 0.0014773871579033537,
+      "visible_auc": 0.001525334858668237,
+      "mixed_measure": 0.0014759097707456315,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_183941_1_3": {
+      "visible_iou": 0.016216148431202226,
+      "visible_auc": 0.014716703458425573,
+      "mixed_measure": 0.015037697521667726,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": 0.0
+    },
+    "20190926_183941_1_5": {
+      "visible_iou": 0.000846721449524801,
+      "visible_auc": 0.002120686331212762,
+      "mixed_measure": 0.0008458653105465341,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_195921_1_1": {
+      "visible_iou": 0.003118351725586832,
+      "visible_auc": 0.0037656704323371093,
+      "mixed_measure": 0.0031152333738611038,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_195921_1_5": {
+      "visible_iou": -0.001425327893973094,
+      "visible_auc": -0.0014776681443346984,
+      "mixed_measure": -0.0014239025660793825,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_195921_1_6": {
+      "visible_iou": -0.001181104269276867,
+      "visible_auc": -4.7666714333316484e-05,
+      "mixed_measure": -0.0011799231650075903,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_195921_1_8": {
+      "visible_iou": 0.0005104156927877579,
+      "visible_auc": 0.0005243338576671475,
+      "mixed_measure": 0.0005099052770949353,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_200510_1_2": {
+      "visible_iou": 0.0048436269697335055,
+      "visible_auc": 0.004719004719004771,
+      "mixed_measure": 0.004838783342763997,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_200510_1_3": {
+      "visible_iou": 0.0018400702805517755,
+      "visible_auc": 0.0012870012870012104,
+      "mixed_measure": 0.0018382302102710746,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_200510_1_4": {
+      "visible_iou": 0.0014256936877068416,
+      "visible_auc": 0.001716001716001725,
+      "mixed_measure": 0.0014242679940191794,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_200510_1_5": {
+      "visible_iou": 0.001230736430559265,
+      "visible_auc": 0.0013823347156679544,
+      "mixed_measure": 0.0012295056941286076,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_200510_1_6": {
+      "visible_iou": -0.002104734065327296,
+      "visible_auc": -0.0008580008580008069,
+      "mixed_measure": -0.0021026293312621513,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_200510_1_7": {
+      "visible_iou": 0.0006143237742207708,
+      "visible_auc": 0.000762667429334174,
+      "mixed_measure": 0.0006137094504465868,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "20190926_200510_1_8": {
+      "visible_iou": 0.0016160448079861611,
+      "visible_auc": 0.002988643156007109,
+      "mixed_measure": 0.0015668750876620674,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "3700000000002_091732_1": {
+      "visible_iou": 0.011990955459047936,
+      "visible_auc": 0.011204481792717047,
+      "mixed_measure": 0.011982853462116139,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "3700000000002_105009_1": {
+      "visible_iou": 0.005227448329476858,
+      "visible_auc": 0.005172266393092206,
+      "mixed_measure": 0.0038822516260248463,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "3700000000002_105103_3": {
+      "visible_iou": 0.01859164732709065,
+      "visible_auc": 0.01678587537856817,
+      "mixed_measure": 0.018318969832959983,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": null
+    },
+    "3700000000002_105103_6": {
+      "visible_iou": 0.12403736846556324,
+      "visible_auc": 0.11302773277423056,
+      "mixed_measure": 0.12395467688658629,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "3700000000002_105103_8": {
+      "visible_iou": -0.0047526415749057915,
+      "visible_auc": -0.004231210556511711,
+      "mixed_measure": -0.004207672007649876,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": 2.0
+    },
+    "3700000000002_105837_2": {
+      "visible_iou": 0.0009312370671278533,
+      "visible_auc": 0.0008894818768067636,
+      "mixed_measure": 0.0009306162424164433,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "3700000000002_110352_1": {
+      "visible_iou": 0.00016450194663403597,
+      "visible_auc": 0.0001270688395438313,
+      "mixed_measure": 0.00016439227866961188,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "3700000000002_110743_1": {
+      "visible_iou": 0.002917908856758692,
+      "visible_auc": 0.0024985302763080725,
+      "mixed_measure": 0.0018908049391796293,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": null
+    },
+    "3700000000002_111356_3": {
+      "visible_iou": 0.004181936048061968,
+      "visible_auc": 0.0037952510704554188,
+      "mixed_measure": 0.004179089257014948,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "3700000000002_143252_1": {
+      "visible_iou": 0.008644809472952875,
+      "visible_auc": 0.007592363162743476,
+      "mixed_measure": 0.008639046266637695,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "3700000000002_143252_3": {
+      "visible_iou": 0.04676322147061464,
+      "visible_auc": 0.04308236808236807,
+      "mixed_measure": 0.046139711851006446,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": null
+    },
+    "3700000000002_153139_1": {
+      "visible_iou": 0.0085553314601019,
+      "visible_auc": 0.007641196013289053,
+      "mixed_measure": 0.007441926893817563,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": 0.0
+    },
+    "3700000000002_162623_2": {
+      "visible_iou": 0.17001665510309577,
+      "visible_auc": 0.15516727886429052,
+      "mixed_measure": 0.16310264446223657,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": null
+    },
+    "new28_train-new": {
+      "visible_iou": -0.08236543722811385,
+      "visible_auc": -0.07544712347914478,
+      "mixed_measure": -0.08231052693662833,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "new29_train-new": {
+      "visible_iou": 0.0037806152338133447,
+      "visible_auc": 0.0036849963467711078,
+      "mixed_measure": 0.0037780948236576517,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "new30_train-new": {
+      "visible_iou": 0.005734431857587596,
+      "visible_auc": 0.0051325919589392255,
+      "mixed_measure": 0.005107467307824631,
+      "recovery_rate_30": 0.0,
+      "recovery_latency": null
+    },
+    "new36_train-new": {
+      "visible_iou": 0.007775440908969311,
+      "visible_auc": 0.007676381589425185,
+      "mixed_measure": 0.00774952277260621,
+      "recovery_rate_30": 1.0,
+      "recovery_latency": null
+    },
+    "new40_train-new": {
+      "visible_iou": 0.013450862561444343,
+      "visible_auc": 0.012389211855522553,
+      "mixed_measure": 0.013441895319736719,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    },
+    "new8_train-new": {
+      "visible_iou": -0.18819866439519634,
+      "visible_auc": -0.1718288382731345,
+      "mixed_measure": -0.18807319861893285,
+      "recovery_rate_30": null,
+      "recovery_latency": null
+    }
+  },
+  "timing_comparable": false
+}

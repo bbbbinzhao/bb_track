@@ -1,0 +1,27 @@
+{
+  "median_fps": {
+    "sra": 40.762558700690434,
+    "motion": 39.28616826914645,
+    "motion_fps_change_percent": -3.621927765586941
+  },
+  "runs_fps": {
+    "sra": [
+      38.81490875765126,
+      40.933974985001264,
+      40.762558700690434
+    ],
+    "motion": [
+      38.99192368113022,
+      39.57733575085813,
+      39.28616826914645
+    ]
+  },
+  "frames_per_repeat": 200,
+  "warmup_frames_excluded": 20,
+  "repeats": 3,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "cpu_threads": 1,
+  "timing": "tracking and controller; image decoding excluded",
+  "feature_extraction": "disabled for deployed SRA; included for motion controller",
+  "scope": "isolated runtime benchmark; full-val accuracy is reported separately"
+}

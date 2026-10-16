@@ -15,10 +15,10 @@ class AntiUAV410Dataset(BaseDataset):
 
     """
 
-    def __init__(self, split):
+    def __init__(self, split, root=None):
         super().__init__()
         # Split can be test, val
-        self.base_path = os.path.join(self.env_settings.antiuav410_path, split)
+        self.base_path = os.path.join(root or self.env_settings.antiuav410_path, split)
 
         # image and annotation paths
         anno_files = sorted(glob.glob(os.path.join(self.base_path,

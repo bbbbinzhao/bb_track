@@ -1,0 +1,4181 @@
+{
+  "protocol": "matched_state_nested_horizon_v1",
+  "split": "train",
+  "sequences": 200,
+  "baseline_frames": 213995,
+  "sampled_states": 954,
+  "paired_rows": 1880,
+  "missing_early_visible_rows": 28,
+  "network_state_sha256": "fc7cf9e31e1bcd141d68b4769b4d146344e510ca5d20a0ac5a0ad2debf82ec1b",
+  "all_shards_audited": true,
+  "groups": {
+    "all/uniform/fixed8": {
+      "sequences": 199,
+      "points": 782,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.003427774493160574,
+          "sequence_bootstrap_ci95": [
+            0.002981691920286879,
+            0.003933015759071771
+          ],
+          "sequences": 199
+        },
+        "short_gain32": {
+          "mean": 0.0007359303755593193,
+          "sequence_bootstrap_ci95": [
+            0.0003863234494177372,
+            0.0009957040916228432
+          ],
+          "sequences": 199
+        },
+        "short_gain64": {
+          "mean": 0.0002894409865969403,
+          "sequence_bootstrap_ci95": [
+            -6.059675543167157e-05,
+            0.0005011846134884795
+          ],
+          "sequences": 199
+        },
+        "short_regret64": {
+          "mean": 0.002049219867804262,
+          "sequence_bootstrap_ci95": [
+            0.0005212287777303313,
+            0.004056294117708219
+          ],
+          "sequences": 199
+        },
+        "middle_gain64": {
+          "mean": 0.0022369036296130233,
+          "sequence_bootstrap_ci95": [
+            0.000760506023853465,
+            0.004189861236481735
+          ],
+          "sequences": 199
+        },
+        "middle_regret64": {
+          "mean": 0.00010175722478817926,
+          "sequence_bootstrap_ci95": [
+            7.330810369878798e-06,
+            0.00023593683082033637
+          ],
+          "sequences": 199
+        },
+        "longer_selection_gain64": {
+          "mean": 0.0019474626430160832,
+          "sequence_bootstrap_ci95": [
+            0.0004266131250343457,
+            0.0039456709391057386
+          ],
+          "sequences": 199
+        },
+        "oracle32_gain": {
+          "mean": 0.0022728633257502033,
+          "sequence_bootstrap_ci95": [
+            0.0012183718360079677,
+            0.0036160632513151606
+          ],
+          "sequences": 199
+        },
+        "oracle64_gain": {
+          "mean": 0.0023386608544012023,
+          "sequence_bootstrap_ci95": [
+            0.0008524992401786915,
+            0.004294180604973198
+          ],
+          "sequences": 199
+        },
+        "policy_gain8": {
+          "mean": -0.0007240240308284379,
+          "sequence_bootstrap_ci95": [
+            -0.0018629498546565084,
+            0.000274761793963063
+          ],
+          "sequences": 199
+        },
+        "policy_gain32": {
+          "mean": -0.0008787474871860729,
+          "sequence_bootstrap_ci95": [
+            -0.0028936127910467887,
+            0.0006958337190662501
+          ],
+          "sequences": 199
+        },
+        "policy_gain64": {
+          "mean": -0.0006852370394371433,
+          "sequence_bootstrap_ci95": [
+            -0.002910365015462264,
+            0.001246769948060254
+          ],
+          "sequences": 199
+        },
+        "policy_regret64": {
+          "mean": 0.0030238978938383464,
+          "sequence_bootstrap_ci95": [
+            0.001022497650510476,
+            0.005610005314619662
+          ],
+          "sequences": 199
+        },
+        "mismatch": {
+          "mean": 0.05067001675041875,
+          "sequence_bootstrap_ci95": [
+            0.035175879396984924,
+            0.06825795644891122
+          ],
+          "sequences": 199
+        },
+        "short_intervenes": {
+          "mean": 0.6264656616415409,
+          "sequence_bootstrap_ci95": [
+            0.5896042713567838,
+            0.6641541038525963
+          ],
+          "sequences": 199
+        },
+        "short_opportunity": {
+          "mean": 0.002512562814070352,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.00628140703517588
+          ],
+          "sequences": 199
+        },
+        "long_opportunity": {
+          "mean": 0.00628140703517588,
+          "sequence_bootstrap_ci95": [
+            0.001256281407035176,
+            0.01256281407035176
+          ],
+          "sequences": 199
+        },
+        "short_reversal": {
+          "mean": 0.020100502512562814,
+          "sequence_bootstrap_ci95": [
+            0.011306532663316583,
+            0.03015075376884422
+          ],
+          "sequences": 199
+        },
+        "reversal_01": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 199
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 199
+        },
+        "policy_intervenes": {
+          "mean": 0.9895309882747069,
+          "sequence_bootstrap_ci95": [
+            0.981574539363484,
+            0.9962311557788944
+          ],
+          "sequences": 199
+        },
+        "short_tail_gain": {
+          "mean": -0.0001609823599710791,
+          "sequence_bootstrap_ci95": [
+            -0.0005106813586489722,
+            2.4788819886810408e-05
+          ],
+          "sequences": 199
+        }
+      },
+      "counts": {
+        "mismatch": 39,
+        "short_intervenes": 492,
+        "short_opportunity": 2,
+        "long_opportunity": 5,
+        "short_reversal": 16,
+        "reversal_01": 0,
+        "reversal_05": 0,
+        "policy_intervenes": 774
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 68,
+        "negative64": 4,
+        "negative64_at_least_01": 0,
+        "mean_gain64": 0.002175407002218193
+      }
+    },
+    "all/uniform/aggregate": {
+      "sequences": 199,
+      "points": 782,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.004990690151523163,
+          "sequence_bootstrap_ci95": [
+            0.0031845425158171944,
+            0.00783610185271434
+          ],
+          "sequences": 199
+        },
+        "short_gain32": {
+          "mean": 0.002536966563575858,
+          "sequence_bootstrap_ci95": [
+            0.001117995131853407,
+            0.004399773995590585
+          ],
+          "sequences": 199
+        },
+        "short_gain64": {
+          "mean": 0.002073768726916818,
+          "sequence_bootstrap_ci95": [
+            0.00043236311954144527,
+            0.004369430530103956
+          ],
+          "sequences": 199
+        },
+        "short_regret64": {
+          "mean": 0.0005257549210083237,
+          "sequence_bootstrap_ci95": [
+            0.00022132461876973913,
+            0.0008915157366466121
+          ],
+          "sequences": 199
+        },
+        "middle_gain64": {
+          "mean": 0.002246790036677286,
+          "sequence_bootstrap_ci95": [
+            0.00053191902347862,
+            0.004627547642441836
+          ],
+          "sequences": 199
+        },
+        "middle_regret64": {
+          "mean": 0.00035273361124785646,
+          "sequence_bootstrap_ci95": [
+            8.532612794999922e-05,
+            0.000691642689227616
+          ],
+          "sequences": 199
+        },
+        "longer_selection_gain64": {
+          "mean": 0.0001730213097604672,
+          "sequence_bootstrap_ci95": [
+            6.287383171509205e-05,
+            0.00031926958500281714
+          ],
+          "sequences": 199
+        },
+        "oracle32_gain": {
+          "mean": 0.0028648192622350165,
+          "sequence_bootstrap_ci95": [
+            0.0012937735801463455,
+            0.004963906306590876
+          ],
+          "sequences": 199
+        },
+        "oracle64_gain": {
+          "mean": 0.002599523647925142,
+          "sequence_bootstrap_ci95": [
+            0.000862777891017646,
+            0.004992474161839771
+          ],
+          "sequences": 199
+        },
+        "policy_gain8": {
+          "mean": 0.0011852955355489447,
+          "sequence_bootstrap_ci95": [
+            -0.0011196927539659151,
+            0.004185659986376812
+          ],
+          "sequences": 199
+        },
+        "policy_gain32": {
+          "mean": 0.00027018419319206204,
+          "sequence_bootstrap_ci95": [
+            -0.0020203266868793262,
+            0.0025461073733384636
+          ],
+          "sequences": 199
+        },
+        "policy_gain64": {
+          "mean": -8.747349691184423e-05,
+          "sequence_bootstrap_ci95": [
+            -0.0030621653769057748,
+            0.0028401277941923963
+          ],
+          "sequences": 199
+        },
+        "policy_regret64": {
+          "mean": 0.0026869971448369866,
+          "sequence_bootstrap_ci95": [
+            0.0008511146426338926,
+            0.005166908589559747
+          ],
+          "sequences": 199
+        },
+        "mismatch": {
+          "mean": 0.05025125628140704,
+          "sequence_bootstrap_ci95": [
+            0.035175879396984924,
+            0.06658291457286432
+          ],
+          "sequences": 199
+        },
+        "short_intervenes": {
+          "mean": 0.6440536013400334,
+          "sequence_bootstrap_ci95": [
+            0.6063651591289783,
+            0.6821608040201005
+          ],
+          "sequences": 199
+        },
+        "short_opportunity": {
+          "mean": 0.009212730318257955,
+          "sequence_bootstrap_ci95": [
+            0.002512562814070352,
+            0.01758793969849246
+          ],
+          "sequences": 199
+        },
+        "long_opportunity": {
+          "mean": 0.007956448911222781,
+          "sequence_bootstrap_ci95": [
+            0.002512562814070352,
+            0.014656616415410384
+          ],
+          "sequences": 199
+        },
+        "short_reversal": {
+          "mean": 0.020100502512562814,
+          "sequence_bootstrap_ci95": [
+            0.011306532663316583,
+            0.03015075376884422
+          ],
+          "sequences": 199
+        },
+        "reversal_01": {
+          "mean": 0.001256281407035176,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0037688442211055275
+          ],
+          "sequences": 199
+        },
+        "reversal_05": {
+          "mean": 0.001256281407035176,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0037688442211055275
+          ],
+          "sequences": 199
+        },
+        "policy_intervenes": {
+          "mean": 0.9895309882747069,
+          "sequence_bootstrap_ci95": [
+            0.981574539363484,
+            0.9962311557788944
+          ],
+          "sequences": 199
+        },
+        "short_tail_gain": {
+          "mean": 0.0009053906414766128,
+          "sequence_bootstrap_ci95": [
+            -0.0017939200996211072,
+            0.003925359909271388
+          ],
+          "sequences": 199
+        }
+      },
+      "counts": {
+        "mismatch": 40,
+        "short_intervenes": 507,
+        "short_opportunity": 7,
+        "long_opportunity": 6,
+        "short_reversal": 16,
+        "reversal_01": 1,
+        "reversal_05": 1,
+        "policy_intervenes": 774
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 52,
+        "negative64": 1,
+        "negative64_at_least_01": 1,
+        "mean_gain64": 0.0273805352187649
+      }
+    },
+    "all/event/fixed8": {
+      "sequences": 79,
+      "points": 158,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.06563125881791945,
+          "sequence_bootstrap_ci95": [
+            0.042295144469203544,
+            0.09156743989362148
+          ],
+          "sequences": 79
+        },
+        "short_gain32": {
+          "mean": 0.04011863411368659,
+          "sequence_bootstrap_ci95": [
+            0.023012534615586628,
+            0.06016690519862209
+          ],
+          "sequences": 79
+        },
+        "short_gain64": {
+          "mean": 0.020902247120315076,
+          "sequence_bootstrap_ci95": [
+            0.007301402788323105,
+            0.03704337478281079
+          ],
+          "sequences": 79
+        },
+        "short_regret64": {
+          "mean": 0.024085518201143224,
+          "sequence_bootstrap_ci95": [
+            0.010960705097094684,
+            0.03953055559165854
+          ],
+          "sequences": 79
+        },
+        "middle_gain64": {
+          "mean": 0.039043566408321885,
+          "sequence_bootstrap_ci95": [
+            0.022691556699564804,
+            0.05757925244119539
+          ],
+          "sequences": 79
+        },
+        "middle_regret64": {
+          "mean": 0.005944198913136421,
+          "sequence_bootstrap_ci95": [
+            0.0017354633014118614,
+            0.011451500181196665
+          ],
+          "sequences": 79
+        },
+        "longer_selection_gain64": {
+          "mean": 0.018141319288006805,
+          "sequence_bootstrap_ci95": [
+            0.005635378175617532,
+            0.03288133246004746
+          ],
+          "sequences": 79
+        },
+        "oracle32_gain": {
+          "mean": 0.056101051664296214,
+          "sequence_bootstrap_ci95": [
+            0.037229728185294936,
+            0.07744974232419642
+          ],
+          "sequences": 79
+        },
+        "oracle64_gain": {
+          "mean": 0.04498776532145831,
+          "sequence_bootstrap_ci95": [
+            0.029099060059306573,
+            0.06316105555106079
+          ],
+          "sequences": 79
+        },
+        "policy_gain8": {
+          "mean": 0.027554982799661863,
+          "sequence_bootstrap_ci95": [
+            0.007163226223589287,
+            0.04975523485344005
+          ],
+          "sequences": 79
+        },
+        "policy_gain32": {
+          "mean": 0.011721535725610022,
+          "sequence_bootstrap_ci95": [
+            -0.010142442330113894,
+            0.03126423687421059
+          ],
+          "sequences": 79
+        },
+        "policy_gain64": {
+          "mean": 0.0008191257182176474,
+          "sequence_bootstrap_ci95": [
+            -0.017664865433451294,
+            0.01626391397775733
+          ],
+          "sequences": 79
+        },
+        "policy_regret64": {
+          "mean": 0.04416863960324066,
+          "sequence_bootstrap_ci95": [
+            0.024390688700814348,
+            0.06697945478919441
+          ],
+          "sequences": 79
+        },
+        "mismatch": {
+          "mean": 0.189873417721519,
+          "sequence_bootstrap_ci95": [
+            0.12658227848101267,
+            0.25316455696202533
+          ],
+          "sequences": 79
+        },
+        "short_intervenes": {
+          "mean": 0.46835443037974683,
+          "sequence_bootstrap_ci95": [
+            0.3924050632911392,
+            0.5443037974683544
+          ],
+          "sequences": 79
+        },
+        "short_opportunity": {
+          "mean": 0.21518987341772153,
+          "sequence_bootstrap_ci95": [
+            0.14556962025316456,
+            0.2848101265822785
+          ],
+          "sequences": 79
+        },
+        "long_opportunity": {
+          "mean": 0.17721518987341772,
+          "sequence_bootstrap_ci95": [
+            0.12658227848101267,
+            0.23417721518987342
+          ],
+          "sequences": 79
+        },
+        "short_reversal": {
+          "mean": 0.02531645569620253,
+          "sequence_bootstrap_ci95": [
+            0.006329113924050633,
+            0.05063291139240506
+          ],
+          "sequences": 79
+        },
+        "reversal_01": {
+          "mean": 0.0189873417721519,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.04430379746835443
+          ],
+          "sequences": 79
+        },
+        "reversal_05": {
+          "mean": 0.012658227848101266,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.03164556962025317
+          ],
+          "sequences": 79
+        },
+        "policy_intervenes": {
+          "mean": 0.8734177215189873,
+          "sequence_bootstrap_ci95": [
+            0.8164556962025317,
+            0.9240506329113924
+          ],
+          "sequences": 79
+        },
+        "short_tail_gain": {
+          "mean": 0.002060734865318491,
+          "sequence_bootstrap_ci95": [
+            -0.01348161622000827,
+            0.01856704685967651
+          ],
+          "sequences": 79
+        }
+      },
+      "counts": {
+        "mismatch": 30,
+        "short_intervenes": 74,
+        "short_opportunity": 34,
+        "long_opportunity": 28,
+        "short_reversal": 4,
+        "reversal_01": 3,
+        "reversal_05": 2,
+        "policy_intervenes": 138
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 44,
+        "negative64": 3,
+        "negative64_at_least_01": 3,
+        "mean_gain64": 0.07689415636024824
+      }
+    },
+    "all/event/aggregate": {
+      "sequences": 79,
+      "points": 158,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.05156935067037958,
+          "sequence_bootstrap_ci95": [
+            0.032249870793454025,
+            0.07402238990054183
+          ],
+          "sequences": 79
+        },
+        "short_gain32": {
+          "mean": 0.03164645042314947,
+          "sequence_bootstrap_ci95": [
+            0.014968009904902857,
+            0.05205271403160855
+          ],
+          "sequences": 79
+        },
+        "short_gain64": {
+          "mean": 0.022690166694792697,
+          "sequence_bootstrap_ci95": [
+            0.007049447231152543,
+            0.04134872299201208
+          ],
+          "sequences": 79
+        },
+        "short_regret64": {
+          "mean": 0.01956948516639562,
+          "sequence_bootstrap_ci95": [
+            0.007691032460506272,
+            0.03455881198912123
+          ],
+          "sequences": 79
+        },
+        "middle_gain64": {
+          "mean": 0.038471766020728104,
+          "sequence_bootstrap_ci95": [
+            0.020741927703151336,
+            0.059340599456222866
+          ],
+          "sequences": 79
+        },
+        "middle_regret64": {
+          "mean": 0.003787885840460212,
+          "sequence_bootstrap_ci95": [
+            0.00021078100868412118,
+            0.008799836452310382
+          ],
+          "sequences": 79
+        },
+        "longer_selection_gain64": {
+          "mean": 0.01578159932593541,
+          "sequence_bootstrap_ci95": [
+            0.004640614116923293,
+            0.030226190572599072
+          ],
+          "sequences": 79
+        },
+        "oracle32_gain": {
+          "mean": 0.04767557889482601,
+          "sequence_bootstrap_ci95": [
+            0.027909985388617102,
+            0.0705957150584728
+          ],
+          "sequences": 79
+        },
+        "oracle64_gain": {
+          "mean": 0.04225965186118832,
+          "sequence_bootstrap_ci95": [
+            0.024267557728576455,
+            0.06327784686398005
+          ],
+          "sequences": 79
+        },
+        "policy_gain8": {
+          "mean": -0.0005830128917686942,
+          "sequence_bootstrap_ci95": [
+            -0.0207893826819362,
+            0.020632176224743167
+          ],
+          "sequences": 79
+        },
+        "policy_gain32": {
+          "mean": -0.0005924635721712764,
+          "sequence_bootstrap_ci95": [
+            -0.02468975590203999,
+            0.02501543375167955
+          ],
+          "sequences": 79
+        },
+        "policy_gain64": {
+          "mean": 0.0021003942221669973,
+          "sequence_bootstrap_ci95": [
+            -0.023187930951591464,
+            0.02759260279548439
+          ],
+          "sequences": 79
+        },
+        "policy_regret64": {
+          "mean": 0.040159257639021326,
+          "sequence_bootstrap_ci95": [
+            0.020896447943395558,
+            0.06222799026753272
+          ],
+          "sequences": 79
+        },
+        "mismatch": {
+          "mean": 0.16455696202531644,
+          "sequence_bootstrap_ci95": [
+            0.10759493670886076,
+            0.23417721518987342
+          ],
+          "sequences": 79
+        },
+        "short_intervenes": {
+          "mean": 0.43037974683544306,
+          "sequence_bootstrap_ci95": [
+            0.36075949367088606,
+            0.5063291139240507
+          ],
+          "sequences": 79
+        },
+        "short_opportunity": {
+          "mean": 0.1962025316455696,
+          "sequence_bootstrap_ci95": [
+            0.13291139240506328,
+            0.26582278481012656
+          ],
+          "sequences": 79
+        },
+        "long_opportunity": {
+          "mean": 0.12658227848101267,
+          "sequence_bootstrap_ci95": [
+            0.0759493670886076,
+            0.17721518987341772
+          ],
+          "sequences": 79
+        },
+        "short_reversal": {
+          "mean": 0.04430379746835443,
+          "sequence_bootstrap_ci95": [
+            0.0189873417721519,
+            0.0759493670886076
+          ],
+          "sequences": 79
+        },
+        "reversal_01": {
+          "mean": 0.012658227848101266,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.03164556962025317
+          ],
+          "sequences": 79
+        },
+        "reversal_05": {
+          "mean": 0.006329113924050633,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0189873417721519
+          ],
+          "sequences": 79
+        },
+        "policy_intervenes": {
+          "mean": 0.8734177215189873,
+          "sequence_bootstrap_ci95": [
+            0.8164556962025317,
+            0.9240506329113924
+          ],
+          "sequences": 79
+        },
+        "short_tail_gain": {
+          "mean": 0.013975394034237976,
+          "sequence_bootstrap_ci95": [
+            -0.005382158218936232,
+            0.03522661138113646
+          ],
+          "sequences": 79
+        }
+      },
+      "counts": {
+        "mismatch": 26,
+        "short_intervenes": 68,
+        "short_opportunity": 31,
+        "long_opportunity": 20,
+        "short_reversal": 7,
+        "reversal_01": 2,
+        "reversal_05": 1,
+        "policy_intervenes": 138
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 41,
+        "negative64": 4,
+        "negative64_at_least_01": 2,
+        "mean_gain64": 0.08773741262011359
+      }
+    },
+    "train180/uniform/fixed8": {
+      "sequences": 179,
+      "points": 705,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.003425563587674677,
+          "sequence_bootstrap_ci95": [
+            0.0029560872484887504,
+            0.003971423614175043
+          ],
+          "sequences": 179
+        },
+        "short_gain32": {
+          "mean": 0.0008762074243813576,
+          "sequence_bootstrap_ci95": [
+            0.0007267868086707663,
+            0.001057886234007735
+          ],
+          "sequences": 179
+        },
+        "short_gain64": {
+          "mean": 0.0004345834143576774,
+          "sequence_bootstrap_ci95": [
+            0.0003584926639779191,
+            0.0005261480831495554
+          ],
+          "sequences": 179
+        },
+        "short_regret64": {
+          "mean": 0.0021095100584637492,
+          "sequence_bootstrap_ci95": [
+            0.0004433187002383692,
+            0.004315196529040593
+          ],
+          "sequences": 179
+        },
+        "middle_gain64": {
+          "mean": 0.0024316274207225055,
+          "sequence_bootstrap_ci95": [
+            0.000783267609835327,
+            0.004612954574052236
+          ],
+          "sequences": 179
+        },
+        "middle_regret64": {
+          "mean": 0.00011246605209892124,
+          "sequence_bootstrap_ci95": [
+            7.489200315447534e-06,
+            0.0002604043234677971
+          ],
+          "sequences": 179
+        },
+        "longer_selection_gain64": {
+          "mean": 0.0019970440063648274,
+          "sequence_bootstrap_ci95": [
+            0.00034441430691860086,
+            0.004201523670736685
+          ],
+          "sequences": 179
+        },
+        "oracle32_gain": {
+          "mean": 0.0024296302454641827,
+          "sequence_bootstrap_ci95": [
+            0.0012646007194014027,
+            0.003941527553693157
+          ],
+          "sequences": 179
+        },
+        "oracle64_gain": {
+          "mean": 0.0025440934728214264,
+          "sequence_bootstrap_ci95": [
+            0.0008943256836432417,
+            0.004736755960505281
+          ],
+          "sequences": 179
+        },
+        "policy_gain8": {
+          "mean": -0.0007394275673356156,
+          "sequence_bootstrap_ci95": [
+            -0.0019971883190585933,
+            0.000319363389297903
+          ],
+          "sequences": 179
+        },
+        "policy_gain32": {
+          "mean": -0.0008276927667612634,
+          "sequence_bootstrap_ci95": [
+            -0.003103612137880952,
+            0.0008931709852812304
+          ],
+          "sequences": 179
+        },
+        "policy_gain64": {
+          "mean": -0.0006903604554331974,
+          "sequence_bootstrap_ci95": [
+            -0.003228200674948626,
+            0.0014312069062169725
+          ],
+          "sequences": 179
+        },
+        "policy_regret64": {
+          "mean": 0.0032344539282546238,
+          "sequence_bootstrap_ci95": [
+            0.0010471498527032778,
+            0.006146692667081611
+          ],
+          "sequences": 179
+        },
+        "mismatch": {
+          "mean": 0.05027932960893855,
+          "sequence_bootstrap_ci95": [
+            0.0335195530726257,
+            0.06983240223463687
+          ],
+          "sequences": 179
+        },
+        "short_intervenes": {
+          "mean": 0.633147113594041,
+          "sequence_bootstrap_ci95": [
+            0.5935754189944135,
+            0.6727188081936685
+          ],
+          "sequences": 179
+        },
+        "short_opportunity": {
+          "mean": 0.002793296089385475,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.006983240223463687
+          ],
+          "sequences": 179
+        },
+        "long_opportunity": {
+          "mean": 0.006983240223463687,
+          "sequence_bootstrap_ci95": [
+            0.0013966480446927375,
+            0.013966480446927373
+          ],
+          "sequences": 179
+        },
+        "short_reversal": {
+          "mean": 0.019553072625698324,
+          "sequence_bootstrap_ci95": [
+            0.009776536312849162,
+            0.030726256983240222
+          ],
+          "sequences": 179
+        },
+        "reversal_01": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 179
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 179
+        },
+        "policy_intervenes": {
+          "mean": 0.9902234636871509,
+          "sequence_bootstrap_ci95": [
+            0.9832402234636871,
+            0.9972067039106145
+          ],
+          "sequences": 179
+        },
+        "short_tail_gain": {
+          "mean": -8.365977144325042e-06,
+          "sequence_bootstrap_ci95": [
+            -4.907340858136385e-05,
+            2.3659961690939226e-05
+          ],
+          "sequences": 179
+        }
+      },
+      "counts": {
+        "mismatch": 35,
+        "short_intervenes": 447,
+        "short_opportunity": 2,
+        "long_opportunity": 5,
+        "short_reversal": 14,
+        "reversal_01": 0,
+        "reversal_05": 0,
+        "policy_intervenes": 698
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 60,
+        "negative64": 4,
+        "negative64_at_least_01": 0,
+        "mean_gain64": 0.002170045555633639
+      }
+    },
+    "train180/uniform/aggregate": {
+      "sequences": 179,
+      "points": 705,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.0037910744294402045,
+          "sequence_bootstrap_ci95": [
+            0.0028852676413962746,
+            0.004941571345444176
+          ],
+          "sequences": 179
+        },
+        "short_gain32": {
+          "mean": 0.0023990614597212308,
+          "sequence_bootstrap_ci95": [
+            0.0008572128734816548,
+            0.0044850089488097725
+          ],
+          "sequences": 179
+        },
+        "short_gain64": {
+          "mean": 0.0022344080125179535,
+          "sequence_bootstrap_ci95": [
+            0.0004249735141702215,
+            0.004718877325956014
+          ],
+          "sequences": 179
+        },
+        "short_regret64": {
+          "mean": 0.00046696791759619254,
+          "sequence_bootstrap_ci95": [
+            0.00019375276227430718,
+            0.0008012798411499356
+          ],
+          "sequences": 179
+        },
+        "middle_gain64": {
+          "mean": 0.0024206482066330805,
+          "sequence_bootstrap_ci95": [
+            0.0005182461278424301,
+            0.005033449992669582
+          ],
+          "sequences": 179
+        },
+        "middle_regret64": {
+          "mean": 0.0002807277234810654,
+          "sequence_bootstrap_ci95": [
+            3.992223427204447e-05,
+            0.0005869290593246446
+          ],
+          "sequences": 179
+        },
+        "longer_selection_gain64": {
+          "mean": 0.00018624019411512716,
+          "sequence_bootstrap_ci95": [
+            6.376160642049807e-05,
+            0.0003512364074912374
+          ],
+          "sequences": 179
+        },
+        "oracle32_gain": {
+          "mean": 0.0027536865818616,
+          "sequence_bootstrap_ci95": [
+            0.0010301244545294335,
+            0.005108501763512031
+          ],
+          "sequences": 179
+        },
+        "oracle64_gain": {
+          "mean": 0.002701375930114146,
+          "sequence_bootstrap_ci95": [
+            0.0008078900561873138,
+            0.005317765271717478
+          ],
+          "sequences": 179
+        },
+        "policy_gain8": {
+          "mean": -0.00010402676614031235,
+          "sequence_bootstrap_ci95": [
+            -0.001865676903947845,
+            0.0013969493319145668
+          ],
+          "sequences": 179
+        },
+        "policy_gain32": {
+          "mean": 0.00019372000448326793,
+          "sequence_bootstrap_ci95": [
+            -0.002310960238453298,
+            0.0027102823205815926
+          ],
+          "sequences": 179
+        },
+        "policy_gain64": {
+          "mean": 0.00016886006326389202,
+          "sequence_bootstrap_ci95": [
+            -0.0031790333786095495,
+            0.003421644806395228
+          ],
+          "sequences": 179
+        },
+        "policy_regret64": {
+          "mean": 0.0025325158668502543,
+          "sequence_bootstrap_ci95": [
+            0.0006840675535813239,
+            0.005237378046657543
+          ],
+          "sequences": 179
+        },
+        "mismatch": {
+          "mean": 0.05027932960893855,
+          "sequence_bootstrap_ci95": [
+            0.0335195530726257,
+            0.06843575418994413
+          ],
+          "sequences": 179
+        },
+        "short_intervenes": {
+          "mean": 0.6424581005586593,
+          "sequence_bootstrap_ci95": [
+            0.6033519553072626,
+            0.6815642458100558
+          ],
+          "sequences": 179
+        },
+        "short_opportunity": {
+          "mean": 0.0074487895716946,
+          "sequence_bootstrap_ci95": [
+            0.0013966480446927375,
+            0.016294227188081937
+          ],
+          "sequences": 179
+        },
+        "long_opportunity": {
+          "mean": 0.006983240223463687,
+          "sequence_bootstrap_ci95": [
+            0.0013966480446927375,
+            0.013966480446927373
+          ],
+          "sequences": 179
+        },
+        "short_reversal": {
+          "mean": 0.01675977653631285,
+          "sequence_bootstrap_ci95": [
+            0.008379888268156424,
+            0.02653631284916201
+          ],
+          "sequences": 179
+        },
+        "reversal_01": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 179
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 179
+        },
+        "policy_intervenes": {
+          "mean": 0.9902234636871509,
+          "sequence_bootstrap_ci95": [
+            0.9832402234636871,
+            0.9972067039106145
+          ],
+          "sequences": 179
+        },
+        "short_tail_gain": {
+          "mean": 0.0019680428005612693,
+          "sequence_bootstrap_ci95": [
+            -2.640386429868193e-05,
+            0.005044533570377808
+          ],
+          "sequences": 179
+        }
+      },
+      "counts": {
+        "mismatch": 36,
+        "short_intervenes": 455,
+        "short_opportunity": 5,
+        "long_opportunity": 5,
+        "short_reversal": 12,
+        "reversal_01": 0,
+        "reversal_05": 0,
+        "policy_intervenes": 698
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 47,
+        "negative64": 0,
+        "negative64_at_least_01": 0,
+        "mean_gain64": 0.03144270721011395
+      }
+    },
+    "train180/event/fixed8": {
+      "sequences": 70,
+      "points": 140,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.07027415496894825,
+          "sequence_bootstrap_ci95": [
+            0.043843041884030744,
+            0.09968125521143434
+          ],
+          "sequences": 70
+        },
+        "short_gain32": {
+          "mean": 0.04241185627363274,
+          "sequence_bootstrap_ci95": [
+            0.023295706190520935,
+            0.06466985659445788
+          ],
+          "sequences": 70
+        },
+        "short_gain64": {
+          "mean": 0.021900610019826693,
+          "sequence_bootstrap_ci95": [
+            0.006887261904102398,
+            0.04009182997245089
+          ],
+          "sequences": 70
+        },
+        "short_regret64": {
+          "mean": 0.022276046583166693,
+          "sequence_bootstrap_ci95": [
+            0.009085272911079151,
+            0.03815478458585354
+          ],
+          "sequences": 70
+        },
+        "middle_gain64": {
+          "mean": 0.037593404702024165,
+          "sequence_bootstrap_ci95": [
+            0.020461601430977673,
+            0.05722420708773762
+          ],
+          "sequences": 70
+        },
+        "middle_regret64": {
+          "mean": 0.0065832519009692255,
+          "sequence_bootstrap_ci95": [
+            0.001951569841885635,
+            0.012648373539000252
+          ],
+          "sequences": 70
+        },
+        "longer_selection_gain64": {
+          "mean": 0.01569279468219747,
+          "sequence_bootstrap_ci95": [
+            0.0036427657434605406,
+            0.030862018189085183
+          ],
+          "sequences": 70
+        },
+        "oracle32_gain": {
+          "mean": 0.05609121920274041,
+          "sequence_bootstrap_ci95": [
+            0.035100927900520384,
+            0.0802315862114826
+          ],
+          "sequences": 70
+        },
+        "oracle64_gain": {
+          "mean": 0.04417665660299339,
+          "sequence_bootstrap_ci95": [
+            0.027444432365344718,
+            0.06379714285793084
+          ],
+          "sequences": 70
+        },
+        "policy_gain8": {
+          "mean": 0.031780277471017505,
+          "sequence_bootstrap_ci95": [
+            0.010044238094539666,
+            0.055237292308259585
+          ],
+          "sequences": 70
+        },
+        "policy_gain32": {
+          "mean": 0.010894058774403156,
+          "sequence_bootstrap_ci95": [
+            -0.012614110665611824,
+            0.032453151117819344
+          ],
+          "sequences": 70
+        },
+        "policy_gain64": {
+          "mean": -0.0006297378652585205,
+          "sequence_bootstrap_ci95": [
+            -0.02064127611779243,
+            0.016365267355845408
+          ],
+          "sequences": 70
+        },
+        "policy_regret64": {
+          "mean": 0.044806394468251916,
+          "sequence_bootstrap_ci95": [
+            0.023543860999139604,
+            0.06982268292763286
+          ],
+          "sequences": 70
+        },
+        "mismatch": {
+          "mean": 0.17857142857142858,
+          "sequence_bootstrap_ci95": [
+            0.11428571428571428,
+            0.25
+          ],
+          "sequences": 70
+        },
+        "short_intervenes": {
+          "mean": 0.4928571428571429,
+          "sequence_bootstrap_ci95": [
+            0.40714285714285714,
+            0.5785714285714286
+          ],
+          "sequences": 70
+        },
+        "short_opportunity": {
+          "mean": 0.22142857142857142,
+          "sequence_bootstrap_ci95": [
+            0.15,
+            0.3
+          ],
+          "sequences": 70
+        },
+        "long_opportunity": {
+          "mean": 0.17142857142857143,
+          "sequence_bootstrap_ci95": [
+            0.11428571428571428,
+            0.2357142857142857
+          ],
+          "sequences": 70
+        },
+        "short_reversal": {
+          "mean": 0.02857142857142857,
+          "sequence_bootstrap_ci95": [
+            0.007142857142857143,
+            0.05714285714285714
+          ],
+          "sequences": 70
+        },
+        "reversal_01": {
+          "mean": 0.02142857142857143,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.05
+          ],
+          "sequences": 70
+        },
+        "reversal_05": {
+          "mean": 0.014285714285714285,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.03571428571428571
+          ],
+          "sequences": 70
+        },
+        "policy_intervenes": {
+          "mean": 0.8714285714285714,
+          "sequence_bootstrap_ci95": [
+            0.8071428571428572,
+            0.9285714285714286
+          ],
+          "sequences": 70
+        },
+        "short_tail_gain": {
+          "mean": 0.0018124366850437834,
+          "sequence_bootstrap_ci95": [
+            -0.015660872113414166,
+            0.02048190787528474
+          ],
+          "sequences": 70
+        }
+      },
+      "counts": {
+        "mismatch": 25,
+        "short_intervenes": 69,
+        "short_opportunity": 31,
+        "long_opportunity": 24,
+        "short_reversal": 4,
+        "reversal_01": 3,
+        "reversal_05": 2,
+        "policy_intervenes": 122
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 40,
+        "negative64": 3,
+        "negative64_at_least_01": 3,
+        "mean_gain64": 0.07869006290580613
+      }
+    },
+    "train180/event/aggregate": {
+      "sequences": 70,
+      "points": 140,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.05538853584508037,
+          "sequence_bootstrap_ci95": [
+            0.033188646960991865,
+            0.0800072222565428
+          ],
+          "sequences": 70
+        },
+        "short_gain32": {
+          "mean": 0.03581931482807644,
+          "sequence_bootstrap_ci95": [
+            0.016921091713459766,
+            0.057913581969957814
+          ],
+          "sequences": 70
+        },
+        "short_gain64": {
+          "mean": 0.02571665208848943,
+          "sequence_bootstrap_ci95": [
+            0.007615101115914639,
+            0.045977668840568746
+          ],
+          "sequences": 70
+        },
+        "short_regret64": {
+          "mean": 0.02030783557304411,
+          "sequence_bootstrap_ci95": [
+            0.006833801460168848,
+            0.036583211651213796
+          ],
+          "sequences": 70
+        },
+        "middle_gain64": {
+          "mean": 0.042994553101805125,
+          "sequence_bootstrap_ci95": [
+            0.022621554452495505,
+            0.06542020977846828
+          ],
+          "sequences": 70
+        },
+        "middle_regret64": {
+          "mean": 0.0030299345597284088,
+          "sequence_bootstrap_ci95": [
+            7.265183465315008e-05,
+            0.008084469621890836
+          ],
+          "sequences": 70
+        },
+        "longer_selection_gain64": {
+          "mean": 0.017277901013315704,
+          "sequence_bootstrap_ci95": [
+            0.004472250618668795,
+            0.03336073597999445
+          ],
+          "sequences": 70
+        },
+        "oracle32_gain": {
+          "mean": 0.05270840553813675,
+          "sequence_bootstrap_ci95": [
+            0.030384038270187156,
+            0.07742614921425175
+          ],
+          "sequences": 70
+        },
+        "oracle64_gain": {
+          "mean": 0.046024487661533546,
+          "sequence_bootstrap_ci95": [
+            0.02547713509847427,
+            0.06874734595348293
+          ],
+          "sequences": 70
+        },
+        "policy_gain8": {
+          "mean": 0.004577785513482937,
+          "sequence_bootstrap_ci95": [
+            -0.01725669101396097,
+            0.026949701149239422
+          ],
+          "sequences": 70
+        },
+        "policy_gain32": {
+          "mean": 0.008091647278936699,
+          "sequence_bootstrap_ci95": [
+            -0.01758852358462204,
+            0.03474216558983928
+          ],
+          "sequences": 70
+        },
+        "policy_gain64": {
+          "mean": 0.008700944816785152,
+          "sequence_bootstrap_ci95": [
+            -0.017812457017111757,
+            0.03582867960648742
+          ],
+          "sequences": 70
+        },
+        "policy_regret64": {
+          "mean": 0.037323542844748404,
+          "sequence_bootstrap_ci95": [
+            0.01804004238105379,
+            0.060580629826162635
+          ],
+          "sequences": 70
+        },
+        "mismatch": {
+          "mean": 0.15714285714285714,
+          "sequence_bootstrap_ci95": [
+            0.09285714285714286,
+            0.22857142857142856
+          ],
+          "sequences": 70
+        },
+        "short_intervenes": {
+          "mean": 0.45,
+          "sequence_bootstrap_ci95": [
+            0.37142857142857144,
+            0.5285714285714286
+          ],
+          "sequences": 70
+        },
+        "short_opportunity": {
+          "mean": 0.2,
+          "sequence_bootstrap_ci95": [
+            0.12857142857142856,
+            0.2785714285714286
+          ],
+          "sequences": 70
+        },
+        "long_opportunity": {
+          "mean": 0.1357142857142857,
+          "sequence_bootstrap_ci95": [
+            0.07857142857142857,
+            0.19285714285714287
+          ],
+          "sequences": 70
+        },
+        "short_reversal": {
+          "mean": 0.04285714285714286,
+          "sequence_bootstrap_ci95": [
+            0.014285714285714285,
+            0.07857142857142857
+          ],
+          "sequences": 70
+        },
+        "reversal_01": {
+          "mean": 0.007142857142857143,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.02142857142857143
+          ],
+          "sequences": 70
+        },
+        "reversal_05": {
+          "mean": 0.007142857142857143,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.02142857142857143
+          ],
+          "sequences": 70
+        },
+        "policy_intervenes": {
+          "mean": 0.8714285714285714,
+          "sequence_bootstrap_ci95": [
+            0.8071428571428572,
+            0.9285714285714286
+          ],
+          "sequences": 70
+        },
+        "short_tail_gain": {
+          "mean": 0.015886551839707597,
+          "sequence_bootstrap_ci95": [
+            -0.005967136787770928,
+            0.03877260285554399
+          ],
+          "sequences": 70
+        }
+      },
+      "counts": {
+        "mismatch": 22,
+        "short_intervenes": 63,
+        "short_opportunity": 28,
+        "long_opportunity": 19,
+        "short_reversal": 6,
+        "reversal_01": 1,
+        "reversal_05": 1,
+        "policy_intervenes": 122
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 37,
+        "negative64": 3,
+        "negative64_at_least_01": 1,
+        "mean_gain64": 0.0976665813518198
+      }
+    },
+    "dev20/uniform/fixed8": {
+      "sequences": 20,
+      "points": 77,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.0034475620972593485,
+          "sequence_bootstrap_ci95": [
+            0.0021949584059440096,
+            0.004924470226836228
+          ],
+          "sequences": 20
+        },
+        "short_gain32": {
+          "mean": -0.0005195492113979233,
+          "sequence_bootstrap_ci95": [
+            -0.003422382874853428,
+            0.001175337506672484
+          ],
+          "sequences": 20
+        },
+        "short_gain64": {
+          "mean": -0.0010095837418616568,
+          "sequence_bootstrap_ci95": [
+            -0.004100787946146324,
+            0.0006708594043704038
+          ],
+          "sequences": 20
+        },
+        "short_regret64": {
+          "mean": 0.0015096226614018543,
+          "sequence_bootstrap_ci95": [
+            5.9132203570386175e-06,
+            0.004455806515515878
+          ],
+          "sequences": 20
+        },
+        "middle_gain64": {
+          "mean": 0.000494125699183159,
+          "sequence_bootstrap_ci95": [
+            0.0002809859246141532,
+            0.000762048202320676
+          ],
+          "sequences": 20
+        },
+        "middle_regret64": {
+          "mean": 5.9132203570386175e-06,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            1.7739661071115852e-05
+          ],
+          "sequences": 20
+        },
+        "longer_selection_gain64": {
+          "mean": 0.0015037094410448157,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.00444989329515884
+          ],
+          "sequences": 20
+        },
+        "oracle32_gain": {
+          "mean": 0.0008697993943100866,
+          "sequence_bootstrap_ci95": [
+            0.0005086741154014391,
+            0.0013483872975087528
+          ],
+          "sequences": 20
+        },
+        "oracle64_gain": {
+          "mean": 0.0005000389195401976,
+          "sequence_bootstrap_ci95": [
+            0.0002902757912765321,
+            0.0007666191301393795
+          ],
+          "sequences": 20
+        },
+        "policy_gain8": {
+          "mean": -0.0005861623790891961,
+          "sequence_bootstrap_ci95": [
+            -0.003931899507807825,
+            0.001983121909883938
+          ],
+          "sequences": 20
+        },
+        "policy_gain32": {
+          "mean": -0.0013356872349881155,
+          "sequence_bootstrap_ci95": [
+            -0.004470141226095059,
+            0.0004983228613648776
+          ],
+          "sequences": 20
+        },
+        "policy_gain64": {
+          "mean": -0.0006393824662724615,
+          "sequence_bootstrap_ci95": [
+            -0.002310949558052686,
+            0.00032123084595347376
+          ],
+          "sequences": 20
+        },
+        "policy_regret64": {
+          "mean": 0.001139421385812659,
+          "sequence_bootstrap_ci95": [
+            0.0002864784550567959,
+            0.0027104652857420438
+          ],
+          "sequences": 20
+        },
+        "mismatch": {
+          "mean": 0.05416666666666666,
+          "sequence_bootstrap_ci95": [
+            0.0125,
+            0.10833333333333332
+          ],
+          "sequences": 20
+        },
+        "short_intervenes": {
+          "mean": 0.5666666666666667,
+          "sequence_bootstrap_ci95": [
+            0.4416666666666666,
+            0.6875
+          ],
+          "sequences": 20
+        },
+        "short_opportunity": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 20
+        },
+        "long_opportunity": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 20
+        },
+        "short_reversal": {
+          "mean": 0.025,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0625
+          ],
+          "sequences": 20
+        },
+        "reversal_01": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 20
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 20
+        },
+        "policy_intervenes": {
+          "mean": 0.9833333333333334,
+          "sequence_bootstrap_ci95": [
+            0.95,
+            1.0
+          ],
+          "sequences": 20
+        },
+        "short_tail_gain": {
+          "mean": -0.001526898986270528,
+          "sequence_bootstrap_ci95": [
+            -0.004824840778792845,
+            0.00017854052534922588
+          ],
+          "sequences": 20
+        }
+      },
+      "counts": {
+        "mismatch": 4,
+        "short_intervenes": 45,
+        "short_opportunity": 0,
+        "long_opportunity": 0,
+        "short_reversal": 2,
+        "reversal_01": 0,
+        "reversal_05": 0,
+        "policy_intervenes": 76
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 8,
+        "negative64": 0,
+        "negative64_at_least_01": 0,
+        "mean_gain64": 0.0022156178516023473
+      }
+    },
+    "dev20/uniform/aggregate": {
+      "sequences": 20,
+      "points": 77,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.01572725086416564,
+          "sequence_bootstrap_ci95": [
+            0.0023998818866331484,
+            0.039588357299158175
+          ],
+          "sequences": 20
+        },
+        "short_gain32": {
+          "mean": 0.0037712172430747785,
+          "sequence_bootstrap_ci95": [
+            0.0007185525507651187,
+            0.007992716424998027
+          ],
+          "sequences": 20
+        },
+        "short_gain64": {
+          "mean": 0.0006360471207866591,
+          "sequence_bootstrap_ci95": [
+            -0.0022831805645101596,
+            0.0033812016229972422
+          ],
+          "sequences": 20
+        },
+        "short_regret64": {
+          "mean": 0.0010518986015468968,
+          "sequence_bootstrap_ci95": [
+            7.548626624853671e-06,
+            0.0030796914787737063
+          ],
+          "sequences": 20
+        },
+        "middle_gain64": {
+          "mean": 0.0006907594155729196,
+          "sequence_bootstrap_ci95": [
+            -0.0022327856904628776,
+            0.00343463732394892
+          ],
+          "sequences": 20
+        },
+        "middle_regret64": {
+          "mean": 0.0009971863067606362,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.002991558920281909
+          ],
+          "sequences": 20
+        },
+        "longer_selection_gain64": {
+          "mean": 5.471229478626049e-05,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.000133681054822149
+          ],
+          "sequences": 20
+        },
+        "oracle32_gain": {
+          "mean": 0.0038594567515770964,
+          "sequence_bootstrap_ci95": [
+            0.0008311142855758563,
+            0.00808188874619664
+          ],
+          "sequences": 20
+        },
+        "oracle64_gain": {
+          "mean": 0.001687945722333556,
+          "sequence_bootstrap_ci95": [
+            0.0003353887628308694,
+            0.0038544581044833914
+          ],
+          "sequences": 20
+        },
+        "policy_gain8": {
+          "mean": 0.012724730135667795,
+          "sequence_bootstrap_ci95": [
+            -0.0013872157240017906,
+            0.037164707891323645
+          ],
+          "sequences": 20
+        },
+        "policy_gain32": {
+          "mean": 0.000954538682135769,
+          "sequence_bootstrap_ci95": [
+            -0.0031229096762033872,
+            0.005740132986624597
+          ],
+          "sequences": 20
+        },
+        "policy_gain64": {
+          "mean": -0.002381658860484684,
+          "sequence_bootstrap_ci95": [
+            -0.007874214204774696,
+            0.0017832811149850057
+          ],
+          "sequences": 20
+        },
+        "policy_regret64": {
+          "mean": 0.00406960458281824,
+          "sequence_bootstrap_ci95": [
+            0.0004214709804147944,
+            0.010172230829229079
+          ],
+          "sequences": 20
+        },
+        "mismatch": {
+          "mean": 0.05,
+          "sequence_bootstrap_ci95": [
+            0.0125,
+            0.1
+          ],
+          "sequences": 20
+        },
+        "short_intervenes": {
+          "mean": 0.6583333333333334,
+          "sequence_bootstrap_ci95": [
+            0.5208333333333334,
+            0.7875
+          ],
+          "sequences": 20
+        },
+        "short_opportunity": {
+          "mean": 0.025,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0625
+          ],
+          "sequences": 20
+        },
+        "long_opportunity": {
+          "mean": 0.016666666666666666,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.05
+          ],
+          "sequences": 20
+        },
+        "short_reversal": {
+          "mean": 0.05,
+          "sequence_bootstrap_ci95": [
+            0.0125,
+            0.1
+          ],
+          "sequences": 20
+        },
+        "reversal_01": {
+          "mean": 0.0125,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0375
+          ],
+          "sequences": 20
+        },
+        "reversal_05": {
+          "mean": 0.0125,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0375
+          ],
+          "sequences": 20
+        },
+        "policy_intervenes": {
+          "mean": 0.9833333333333334,
+          "sequence_bootstrap_ci95": [
+            0.95,
+            1.0
+          ],
+          "sequences": 20
+        },
+        "short_tail_gain": {
+          "mean": -0.008605346182331062,
+          "sequence_bootstrap_ci95": [
+            -0.025874734380719983,
+            5.8695833726798984e-05
+          ],
+          "sequences": 20
+        }
+      },
+      "counts": {
+        "mismatch": 4,
+        "short_intervenes": 52,
+        "short_opportunity": 2,
+        "long_opportunity": 1,
+        "short_reversal": 4,
+        "reversal_01": 1,
+        "reversal_05": 1,
+        "policy_intervenes": 76
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 5,
+        "negative64": 1,
+        "negative64_at_least_01": 1,
+        "mean_gain64": -0.010803881499916113
+      }
+    },
+    "dev20/event/fixed8": {
+      "sequences": 9,
+      "points": 18,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.029519844309917664,
+          "sequence_bootstrap_ci95": [
+            0.0031966549849640202,
+            0.06232069640622651
+          ],
+          "sequences": 9
+        },
+        "short_gain32": {
+          "mean": 0.022282461758549896,
+          "sequence_bootstrap_ci95": [
+            0.0007991637462409803,
+            0.05761935860024828
+          ],
+          "sequences": 9
+        },
+        "short_gain64": {
+          "mean": 0.013137202346335846,
+          "sequence_bootstrap_ci95": [
+            0.00039958187312049017,
+            0.03479759370130683
+          ],
+          "sequences": 9
+        },
+        "short_regret64": {
+          "mean": 0.038159186340960695,
+          "sequence_bootstrap_ci95": [
+            0.004157916235920905,
+            0.09588010719270967
+          ],
+          "sequences": 9
+        },
+        "middle_gain64": {
+          "mean": 0.050322601901748594,
+          "sequence_bootstrap_ci95": [
+            0.009931123900175079,
+            0.10776267664753562
+          ],
+          "sequences": 9
+        },
+        "middle_regret64": {
+          "mean": 0.0009737867855479457,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0029213603566438373
+          ],
+          "sequences": 9
+        },
+        "longer_selection_gain64": {
+          "mean": 0.03718539955541275,
+          "sequence_bootstrap_ci95": [
+            0.003346743338267344,
+            0.09490632040716172
+          ],
+          "sequences": 9
+        },
+        "oracle32_gain": {
+          "mean": 0.05617752636528574,
+          "sequence_bootstrap_ci95": [
+            0.012001291117131187,
+            0.11011230284468744
+          ],
+          "sequences": 9
+        },
+        "oracle64_gain": {
+          "mean": 0.051296388687296544,
+          "sequence_bootstrap_ci95": [
+            0.011482208425430443,
+            0.10851472150779579
+          ],
+          "sequences": 9
+        },
+        "policy_gain8": {
+          "mean": -0.005308420199770885,
+          "sequence_bootstrap_ci95": [
+            -0.06301674053423377,
+            0.04546280042548195
+          ],
+          "sequences": 9
+        },
+        "policy_gain32": {
+          "mean": 0.018157467568330084,
+          "sequence_bootstrap_ci95": [
+            -0.012277023694037466,
+            0.05840533571476379
+          ],
+          "sequences": 9
+        },
+        "policy_gain64": {
+          "mean": 0.012088064700810086,
+          "sequence_bootstrap_ci95": [
+            -0.005322967516211418,
+            0.03585399086463271
+          ],
+          "sequences": 9
+        },
+        "policy_regret64": {
+          "mean": 0.03920832398648646,
+          "sequence_bootstrap_ci95": [
+            0.005343821184214322,
+            0.09698744521813313
+          ],
+          "sequences": 9
+        },
+        "mismatch": {
+          "mean": 0.2777777777777778,
+          "sequence_bootstrap_ci95": [
+            0.1111111111111111,
+            0.4444444444444444
+          ],
+          "sequences": 9
+        },
+        "short_intervenes": {
+          "mean": 0.2777777777777778,
+          "sequence_bootstrap_ci95": [
+            0.1111111111111111,
+            0.4444444444444444
+          ],
+          "sequences": 9
+        },
+        "short_opportunity": {
+          "mean": 0.16666666666666666,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.3333333333333333
+          ],
+          "sequences": 9
+        },
+        "long_opportunity": {
+          "mean": 0.2222222222222222,
+          "sequence_bootstrap_ci95": [
+            0.05555555555555555,
+            0.3888888888888889
+          ],
+          "sequences": 9
+        },
+        "short_reversal": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 9
+        },
+        "reversal_01": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 9
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 9
+        },
+        "policy_intervenes": {
+          "mean": 0.8888888888888888,
+          "sequence_bootstrap_ci95": [
+            0.7222222222222222,
+            1.0
+          ],
+          "sequences": 9
+        },
+        "short_tail_gain": {
+          "mean": 0.0039919429341217965,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.01197582880236539
+          ],
+          "sequences": 9
+        }
+      },
+      "counts": {
+        "mismatch": 5,
+        "short_intervenes": 5,
+        "short_opportunity": 3,
+        "long_opportunity": 4,
+        "short_reversal": 0,
+        "reversal_01": 0,
+        "reversal_05": 0,
+        "policy_intervenes": 16
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 4,
+        "negative64": 0,
+        "negative64_at_least_01": 0,
+        "mean_gain64": 0.058935090904669314
+      }
+    },
+    "dev20/event/aggregate": {
+      "sequences": 9,
+      "points": 18,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.021864577089373352,
+          "sequence_bootstrap_ci95": [
+            0.00341735314324022,
+            0.04470785928139039
+          ],
+          "sequences": 9
+        },
+        "short_gain32": {
+          "mean": -0.0008091616151714242,
+          "sequence_bootstrap_ci95": [
+            -0.007929034392552655,
+            0.004676949880074277
+          ],
+          "sequences": 9
+        },
+        "short_gain64": {
+          "mean": -0.0008491641450707905,
+          "sequence_bootstrap_ci95": [
+            -0.005019404140457115,
+            0.0022625394156247885
+          ],
+          "sequences": 9
+        },
+        "short_regret64": {
+          "mean": 0.013826759781351826,
+          "sequence_bootstrap_ci95": [
+            0.0018067134183426413,
+            0.03217869526162894
+          ],
+          "sequences": 9
+        },
+        "middle_gain64": {
+          "mean": 0.003294533167906797,
+          "sequence_bootstrap_ci95": [
+            0.00021197221129352794,
+            0.007950296780534348
+          ],
+          "sequences": 9
+        },
+        "middle_regret64": {
+          "mean": 0.00968306246837424,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.02750472747235905
+          ],
+          "sequences": 9
+        },
+        "longer_selection_gain64": {
+          "mean": 0.004143697312977587,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.009563837568005511
+          ],
+          "sequences": 9
+        },
+        "oracle32_gain": {
+          "mean": 0.008531371669075772,
+          "sequence_bootstrap_ci95": [
+            0.0006977976259979757,
+            0.021225671486210948
+          ],
+          "sequences": 9
+        },
+        "oracle64_gain": {
+          "mean": 0.012977595636281036,
+          "sequence_bootstrap_ci95": [
+            0.001644339079525597,
+            0.0314632878584014
+          ],
+          "sequences": 9
+        },
+        "policy_gain8": {
+          "mean": -0.04072255604372582,
+          "sequence_bootstrap_ci95": [
+            -0.10553900548349943,
+            0.0012404270720842946
+          ],
+          "sequences": 9
+        },
+        "policy_gain32": {
+          "mean": -0.06813554796967775,
+          "sequence_bootstrap_ci95": [
+            -0.1502437118257729,
+            -0.006511040555998272
+          ],
+          "sequences": 9
+        },
+        "policy_gain64": {
+          "mean": -0.049237221513751976,
+          "sequence_bootstrap_ci95": [
+            -0.1316525032437538,
+            0.010345353474860345
+          ],
+          "sequences": 9
+        },
+        "policy_regret64": {
+          "mean": 0.06221481715003301,
+          "sequence_bootstrap_ci95": [
+            0.010064853779667185,
+            0.13839906138163835
+          ],
+          "sequences": 9
+        },
+        "mismatch": {
+          "mean": 0.2222222222222222,
+          "sequence_bootstrap_ci95": [
+            0.05555555555555555,
+            0.3888888888888889
+          ],
+          "sequences": 9
+        },
+        "short_intervenes": {
+          "mean": 0.2777777777777778,
+          "sequence_bootstrap_ci95": [
+            0.1111111111111111,
+            0.4444444444444444
+          ],
+          "sequences": 9
+        },
+        "short_opportunity": {
+          "mean": 0.16666666666666666,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.3333333333333333
+          ],
+          "sequences": 9
+        },
+        "long_opportunity": {
+          "mean": 0.05555555555555555,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.16666666666666666
+          ],
+          "sequences": 9
+        },
+        "short_reversal": {
+          "mean": 0.05555555555555555,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.16666666666666666
+          ],
+          "sequences": 9
+        },
+        "reversal_01": {
+          "mean": 0.05555555555555555,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.16666666666666666
+          ],
+          "sequences": 9
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 9
+        },
+        "policy_intervenes": {
+          "mean": 0.8888888888888888,
+          "sequence_bootstrap_ci95": [
+            0.7222222222222222,
+            1.0
+          ],
+          "sequences": 9
+        },
+        "short_tail_gain": {
+          "mean": -0.0008891666749701815,
+          "sequence_bootstrap_ci95": [
+            -0.002110153845328872,
+            0.0
+          ],
+          "sequences": 9
+        }
+      },
+      "counts": {
+        "mismatch": 4,
+        "short_intervenes": 5,
+        "short_opportunity": 3,
+        "long_opportunity": 1,
+        "short_reversal": 1,
+        "reversal_01": 1,
+        "reversal_05": 0,
+        "policy_intervenes": 16
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 4,
+        "negative64": 1,
+        "negative64_at_least_01": 1,
+        "mean_gain64": -0.004107398148168715
+      }
+    }
+  },
+  "long_only_groups": {
+    "all/uniform/fixed8": {
+      "sequences": 5,
+      "points": 5,
+      "metrics": {
+        "policy_gain64": {
+          "mean": -0.0756360297868602,
+          "sequence_bootstrap_ci95": [
+            -0.2269080893605806,
+            0.0
+          ]
+        },
+        "oracle64_gain": {
+          "mean": 0.0013272238872934273,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0039816716618802815
+          ]
+        }
+      }
+    },
+    "all/uniform/aggregate": {
+      "sequences": 5,
+      "points": 5,
+      "metrics": {
+        "policy_gain64": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "oracle64_gain": {
+          "mean": 0.00016600074299858437,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0004980022289957531
+          ]
+        }
+      }
+    },
+    "all/event/fixed8": {
+      "sequences": 0,
+      "points": 0,
+      "metrics": {
+        "policy_gain64": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        },
+        "oracle64_gain": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        }
+      }
+    },
+    "all/event/aggregate": {
+      "sequences": 0,
+      "points": 0,
+      "metrics": {
+        "policy_gain64": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        },
+        "oracle64_gain": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        }
+      }
+    },
+    "train180/uniform/fixed8": {
+      "sequences": 4,
+      "points": 4,
+      "metrics": {
+        "policy_gain64": {
+          "mean": -0.09454503723357524,
+          "sequence_bootstrap_ci95": [
+            -0.28363511170072575,
+            0.0
+          ]
+        },
+        "oracle64_gain": {
+          "mean": 0.001659029859116784,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.004977089577350352
+          ]
+        }
+      }
+    },
+    "train180/uniform/aggregate": {
+      "sequences": 4,
+      "points": 4,
+      "metrics": {
+        "policy_gain64": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "oracle64_gain": {
+          "mean": 0.00020750092874823045,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0006225027862446914
+          ]
+        }
+      }
+    },
+    "train180/event/fixed8": {
+      "sequences": 0,
+      "points": 0,
+      "metrics": {
+        "policy_gain64": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        },
+        "oracle64_gain": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        }
+      }
+    },
+    "train180/event/aggregate": {
+      "sequences": 0,
+      "points": 0,
+      "metrics": {
+        "policy_gain64": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        },
+        "oracle64_gain": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        }
+      }
+    },
+    "dev20/uniform/fixed8": {
+      "sequences": 1,
+      "points": 1,
+      "metrics": {
+        "policy_gain64": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "oracle64_gain": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "dev20/uniform/aggregate": {
+      "sequences": 1,
+      "points": 1,
+      "metrics": {
+        "policy_gain64": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "oracle64_gain": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "dev20/event/fixed8": {
+      "sequences": 0,
+      "points": 0,
+      "metrics": {
+        "policy_gain64": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        },
+        "oracle64_gain": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        }
+      }
+    },
+    "dev20/event/aggregate": {
+      "sequences": 0,
+      "points": 0,
+      "metrics": {
+        "policy_gain64": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        },
+        "oracle64_gain": {
+          "mean": null,
+          "sequence_bootstrap_ci95": null
+        }
+      }
+    }
+  },
+  "current_quality_groups": {
+    "uniform/fixed8/healthy": {
+      "sequences": 195,
+      "points": 702,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.0038054946868857444,
+          "sequence_bootstrap_ci95": [
+            0.003255194311875248,
+            0.004413864736390834
+          ],
+          "sequences": 195
+        },
+        "short_gain32": {
+          "mean": 0.0009544044697443485,
+          "sequence_bootstrap_ci95": [
+            0.0007926272928915907,
+            0.0011395307100288388
+          ],
+          "sequences": 195
+        },
+        "short_gain64": {
+          "mean": 0.00048029498126317275,
+          "sequence_bootstrap_ci95": [
+            0.0003985475278136279,
+            0.0005744557869255182
+          ],
+          "sequences": 195
+        },
+        "short_regret64": {
+          "mean": 0.00014899233503462428,
+          "sequence_bootstrap_ci95": [
+            3.652696016658174e-05,
+            0.0003075668240199282
+          ],
+          "sequences": 195
+        },
+        "middle_gain64": {
+          "mean": 0.0005648775174101666,
+          "sequence_bootstrap_ci95": [
+            0.0004462685194212736,
+            0.0007180052074976024
+          ],
+          "sequences": 195
+        },
+        "middle_regret64": {
+          "mean": 6.440979888763051e-05,
+          "sequence_bootstrap_ci95": [
+            6.06484139183448e-07,
+            0.00017810565998498815
+          ],
+          "sequences": 195
+        },
+        "longer_selection_gain64": {
+          "mean": 8.458253614699378e-05,
+          "sequence_bootstrap_ci95": [
+            1.50581668534093e-05,
+            0.00020415572222451904
+          ],
+          "sequences": 195
+        },
+        "oracle32_gain": {
+          "mean": 0.0011358125219944057,
+          "sequence_bootstrap_ci95": [
+            0.0008816940708882046,
+            0.001479659836832251
+          ],
+          "sequences": 195
+        },
+        "oracle64_gain": {
+          "mean": 0.0006292873162977971,
+          "sequence_bootstrap_ci95": [
+            0.00048655219576794294,
+            0.0008070167149192609
+          ],
+          "sequences": 195
+        },
+        "policy_gain8": {
+          "mean": 0.00012303121694101345,
+          "sequence_bootstrap_ci95": [
+            -0.0007759094991785073,
+            0.0009136242858563614
+          ],
+          "sequences": 195
+        },
+        "policy_gain32": {
+          "mean": 0.00021139623383042747,
+          "sequence_bootstrap_ci95": [
+            -4.1493886946556284e-05,
+            0.0005506378486445623
+          ],
+          "sequences": 195
+        },
+        "policy_gain64": {
+          "mean": 0.00014252849683239538,
+          "sequence_bootstrap_ci95": [
+            2.956176619542522e-06,
+            0.00031425577411719525
+          ],
+          "sequences": 195
+        },
+        "policy_regret64": {
+          "mean": 0.0004867588194654017,
+          "sequence_bootstrap_ci95": [
+            0.0004015228639841242,
+            0.000584307772910564
+          ],
+          "sequences": 195
+        },
+        "mismatch": {
+          "mean": 0.04914529914529914,
+          "sequence_bootstrap_ci95": [
+            0.03076923076923077,
+            0.06965811965811965
+          ],
+          "sequences": 195
+        },
+        "short_intervenes": {
+          "mean": 0.6786324786324787,
+          "sequence_bootstrap_ci95": [
+            0.6410149572649573,
+            0.7153846153846154
+          ],
+          "sequences": 195
+        },
+        "short_opportunity": {
+          "mean": 0.002564102564102564,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.00641025641025641
+          ],
+          "sequences": 195
+        },
+        "long_opportunity": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 195
+        },
+        "short_reversal": {
+          "mean": 0.020512820512820513,
+          "sequence_bootstrap_ci95": [
+            0.011538461538461539,
+            0.03076923076923077
+          ],
+          "sequences": 195
+        },
+        "reversal_01": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 195
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 195
+        },
+        "policy_intervenes": {
+          "mean": 1.0,
+          "sequence_bootstrap_ci95": [
+            1.0,
+            1.0
+          ],
+          "sequences": 195
+        },
+        "short_tail_gain": {
+          "mean": 6.672592702951835e-07,
+          "sequence_bootstrap_ci95": [
+            -3.839080100361868e-05,
+            3.249903690872879e-05
+          ],
+          "sequences": 195
+        }
+      },
+      "counts": {
+        "mismatch": 31,
+        "short_intervenes": 482,
+        "short_opportunity": 2,
+        "long_opportunity": 0,
+        "short_reversal": 15,
+        "reversal_01": 0,
+        "reversal_05": 0,
+        "policy_intervenes": 702
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 63,
+        "negative64": 4,
+        "negative64_at_least_01": 0,
+        "mean_gain64": 0.0021717953520687173
+      }
+    },
+    "uniform/fixed8/failed": {
+      "sequences": 37,
+      "points": 64,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.0002734471671373707,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0008156836709654488
+          ],
+          "sequences": 37
+        },
+        "short_gain32": {
+          "mean": -0.0013773578543574399,
+          "sequence_bootstrap_ci95": [
+            -0.004231750505816371,
+            9.967694274405148e-05
+          ],
+          "sequences": 37
+        },
+        "short_gain64": {
+          "mean": -0.0015633115090066233,
+          "sequence_bootstrap_ci95": [
+            -0.0047397729983919,
+            4.983847137203024e-05
+          ],
+          "sequences": 37
+        },
+        "short_regret64": {
+          "mean": 0.03129669393958203,
+          "sequence_bootstrap_ci95": [
+            0.0071069905296999095,
+            0.06585482884985001
+          ],
+          "sequences": 37
+        },
+        "middle_gain64": {
+          "mean": 0.02890205519276355,
+          "sequence_bootstrap_ci95": [
+            0.004732033069090489,
+            0.06354115446131535
+          ],
+          "sequences": 37
+        },
+        "middle_regret64": {
+          "mean": 0.0008313272378118621,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0024939817134355864
+          ],
+          "sequences": 37
+        },
+        "longer_selection_gain64": {
+          "mean": 0.030465366701770174,
+          "sequence_bootstrap_ci95": [
+            0.006247109111189716,
+            0.06503589346651249
+          ],
+          "sequences": 37
+        },
+        "oracle32_gain": {
+          "mean": 0.019252356520605637,
+          "sequence_bootstrap_ci95": [
+            0.004278479848456271,
+            0.03766350254416665
+          ],
+          "sequences": 37
+        },
+        "oracle64_gain": {
+          "mean": 0.029733382430575415,
+          "sequence_bootstrap_ci95": [
+            0.005546571965695114,
+            0.0645743640618208
+          ],
+          "sequences": 37
+        },
+        "policy_gain8": {
+          "mean": -0.010092914960112175,
+          "sequence_bootstrap_ci95": [
+            -0.02047328174798445,
+            -0.001825869142022304
+          ],
+          "sequences": 37
+        },
+        "policy_gain32": {
+          "mean": -0.01830450568038381,
+          "sequence_bootstrap_ci95": [
+            -0.05536968885144148,
+            0.005025755655003081
+          ],
+          "sequences": 37
+        },
+        "policy_gain64": {
+          "mean": -0.013553876880150492,
+          "sequence_bootstrap_ci95": [
+            -0.051532545029562005,
+            0.013008803923295727
+          ],
+          "sequences": 37
+        },
+        "policy_regret64": {
+          "mean": 0.043287259310725905,
+          "sequence_bootstrap_ci95": [
+            0.008395416189366988,
+            0.08870857264442106
+          ],
+          "sequences": 37
+        },
+        "mismatch": {
+          "mean": 0.14864864864864866,
+          "sequence_bootstrap_ci95": [
+            0.05405405405405406,
+            0.25675675675675674
+          ],
+          "sequences": 37
+        },
+        "short_intervenes": {
+          "mean": 0.04054054054054054,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.10810810810810811
+          ],
+          "sequences": 37
+        },
+        "short_opportunity": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 37
+        },
+        "long_opportunity": {
+          "mean": 0.10810810810810811,
+          "sequence_bootstrap_ci95": [
+            0.02702702702702703,
+            0.20270270270270271
+          ],
+          "sequences": 37
+        },
+        "short_reversal": {
+          "mean": 0.013513513513513514,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.04054054054054054
+          ],
+          "sequences": 37
+        },
+        "reversal_01": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 37
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 37
+        },
+        "policy_intervenes": {
+          "mean": 0.9031531531531531,
+          "sequence_bootstrap_ci95": [
+            0.8243243243243243,
+            0.9662162162162162
+          ],
+          "sequences": 37
+        },
+        "short_tail_gain": {
+          "mean": -0.0017386813617271514,
+          "sequence_bootstrap_ci95": [
+            -0.005216044085181454,
+            0.0
+          ],
+          "sequences": 37
+        }
+      },
+      "counts": {
+        "mismatch": 7,
+        "short_intervenes": 2,
+        "short_opportunity": 0,
+        "long_opportunity": 5,
+        "short_reversal": 1,
+        "reversal_01": 0,
+        "reversal_05": 0,
+        "policy_intervenes": 57
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 0,
+        "negative64": 0,
+        "negative64_at_least_01": 0,
+        "mean_gain64": null
+      }
+    },
+    "uniform/aggregate/healthy": {
+      "sequences": 195,
+      "points": 702,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.0033972234383669,
+          "sequence_bootstrap_ci95": [
+            0.002761128073469078,
+            0.004255328065742609
+          ],
+          "sequences": 195
+        },
+        "short_gain32": {
+          "mean": 0.0015945094472786666,
+          "sequence_bootstrap_ci95": [
+            0.0004950427769093636,
+            0.003179785375808455
+          ],
+          "sequences": 195
+        },
+        "short_gain64": {
+          "mean": 0.0013365916383694556,
+          "sequence_bootstrap_ci95": [
+            0.00024363573887449316,
+            0.0031921040950051143
+          ],
+          "sequences": 195
+        },
+        "short_regret64": {
+          "mean": 0.00016450954724146706,
+          "sequence_bootstrap_ci95": [
+            4.81795352587938e-05,
+            0.0003384722186854205
+          ],
+          "sequences": 195
+        },
+        "middle_gain64": {
+          "mean": 0.0014983990109352274,
+          "sequence_bootstrap_ci95": [
+            0.0004404938702979755,
+            0.0033546229349344847
+          ],
+          "sequences": 195
+        },
+        "middle_regret64": {
+          "mean": 2.7021746756951437e-06,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            8.037155277255924e-06
+          ],
+          "sequences": 195
+        },
+        "longer_selection_gain64": {
+          "mean": 0.0001618073725657719,
+          "sequence_bootstrap_ci95": [
+            4.5512044937456236e-05,
+            0.0003360275693045878
+          ],
+          "sequences": 195
+        },
+        "oracle32_gain": {
+          "mean": 0.0019087170865888165,
+          "sequence_bootstrap_ci95": [
+            0.0008812675139048567,
+            0.0034716336430245347
+          ],
+          "sequences": 195
+        },
+        "oracle64_gain": {
+          "mean": 0.0015011011856109228,
+          "sequence_bootstrap_ci95": [
+            0.0004422022156139965,
+            0.003357431606180906
+          ],
+          "sequences": 195
+        },
+        "policy_gain8": {
+          "mean": 2.371914228541883e-05,
+          "sequence_bootstrap_ci95": [
+            -0.0007572023455604342,
+            0.0009338063887154753
+          ],
+          "sequences": 195
+        },
+        "policy_gain32": {
+          "mean": 3.287226169856456e-05,
+          "sequence_bootstrap_ci95": [
+            -0.001992271037656022,
+            0.002008806128857326
+          ],
+          "sequences": 195
+        },
+        "policy_gain64": {
+          "mean": 7.271280721043665e-05,
+          "sequence_bootstrap_ci95": [
+            -0.0023507826393625686,
+            0.0022872750626871494
+          ],
+          "sequences": 195
+        },
+        "policy_regret64": {
+          "mean": 0.0014283883784004863,
+          "sequence_bootstrap_ci95": [
+            0.000467065548333279,
+            0.0032176156088605905
+          ],
+          "sequences": 195
+        },
+        "mismatch": {
+          "mean": 0.04401709401709401,
+          "sequence_bootstrap_ci95": [
+            0.02735042735042735,
+            0.06282051282051282
+          ],
+          "sequences": 195
+        },
+        "short_intervenes": {
+          "mean": 0.6905982905982907,
+          "sequence_bootstrap_ci95": [
+            0.6512820512820513,
+            0.7282051282051282
+          ],
+          "sequences": 195
+        },
+        "short_opportunity": {
+          "mean": 0.002564102564102564,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.007692307692307693
+          ],
+          "sequences": 195
+        },
+        "long_opportunity": {
+          "mean": 0.00641025641025641,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.019230769230769232
+          ],
+          "sequences": 195
+        },
+        "short_reversal": {
+          "mean": 0.02435897435897436,
+          "sequence_bootstrap_ci95": [
+            0.011965811965811965,
+            0.039316239316239315
+          ],
+          "sequences": 195
+        },
+        "reversal_01": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 195
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 195
+        },
+        "policy_intervenes": {
+          "mean": 1.0,
+          "sequence_bootstrap_ci95": [
+            1.0,
+            1.0
+          ],
+          "sequences": 195
+        },
+        "short_tail_gain": {
+          "mean": 0.000981639299737508,
+          "sequence_bootstrap_ci95": [
+            -3.173558566329817e-05,
+            0.0029830937169744174
+          ],
+          "sequences": 195
+        }
+      },
+      "counts": {
+        "mismatch": 30,
+        "short_intervenes": 493,
+        "short_opportunity": 2,
+        "long_opportunity": 2,
+        "short_reversal": 15,
+        "reversal_01": 0,
+        "reversal_05": 0,
+        "policy_intervenes": 702
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 43,
+        "negative64": 0,
+        "negative64_at_least_01": 0,
+        "mean_gain64": 0.01563476369823752
+      }
+    },
+    "uniform/aggregate/failed": {
+      "sequences": 37,
+      "points": 64,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.012273388862569937,
+          "sequence_bootstrap_ci95": [
+            0.0019061034214859017,
+            0.02557791224579112
+          ],
+          "sequences": 37
+        },
+        "short_gain32": {
+          "mean": 0.02646002183819301,
+          "sequence_bootstrap_ci95": [
+            0.0008654401505390388,
+            0.06679699647999135
+          ],
+          "sequences": 37
+        },
+        "short_gain64": {
+          "mean": 0.021981241221258097,
+          "sequence_bootstrap_ci95": [
+            0.0004268678303892255,
+            0.05988019619155932
+          ],
+          "sequences": 37
+        },
+        "short_regret64": {
+          "mean": 0.004354797717299867,
+          "sequence_bootstrap_ci95": [
+            0.000739444924661936,
+            0.009001799179227693
+          ],
+          "sequences": 37
+        },
+        "middle_gain64": {
+          "mean": 0.022785167964406095,
+          "sequence_bootstrap_ci95": [
+            0.0006162798851871548,
+            0.06116081661602659
+          ],
+          "sequences": 37
+        },
+        "middle_regret64": {
+          "mean": 0.0035508709741518653,
+          "sequence_bootstrap_ci95": [
+            6.718242841364773e-05,
+            0.008197856597150834
+          ],
+          "sequences": 37
+        },
+        "longer_selection_gain64": {
+          "mean": 0.0008039267431480017,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0021979259721677477
+          ],
+          "sequences": 37
+        },
+        "oracle32_gain": {
+          "mean": 0.027975254812423148,
+          "sequence_bootstrap_ci95": [
+            0.0011516437480690342,
+            0.06904073154314919
+          ],
+          "sequences": 37
+        },
+        "oracle64_gain": {
+          "mean": 0.026336038938557963,
+          "sequence_bootstrap_ci95": [
+            0.003059097149036277,
+            0.06529769123905926
+          ],
+          "sequences": 37
+        },
+        "policy_gain8": {
+          "mean": 0.0037132907937030744,
+          "sequence_bootstrap_ci95": [
+            -0.013073675004384805,
+            0.019356134348896013
+          ],
+          "sequences": 37
+        },
+        "policy_gain32": {
+          "mean": 0.01944986265801102,
+          "sequence_bootstrap_ci95": [
+            -0.008108708068785915,
+            0.06090749563558113
+          ],
+          "sequences": 37
+        },
+        "policy_gain64": {
+          "mean": 0.015925240795677576,
+          "sequence_bootstrap_ci95": [
+            -0.011563884479342533,
+            0.05664102483434845
+          ],
+          "sequences": 37
+        },
+        "policy_regret64": {
+          "mean": 0.01041079814288039,
+          "sequence_bootstrap_ci95": [
+            0.0015280795916582592,
+            0.0232894755005644
+          ],
+          "sequences": 37
+        },
+        "mismatch": {
+          "mean": 0.11711711711711711,
+          "sequence_bootstrap_ci95": [
+            0.036036036036036036,
+            0.21621621621621623
+          ],
+          "sequences": 37
+        },
+        "short_intervenes": {
+          "mean": 0.11486486486486487,
+          "sequence_bootstrap_ci95": [
+            0.02702702702702703,
+            0.22297297297297297
+          ],
+          "sequences": 37
+        },
+        "short_opportunity": {
+          "mean": 0.0945945945945946,
+          "sequence_bootstrap_ci95": [
+            0.013513513513513514,
+            0.1891891891891892
+          ],
+          "sequences": 37
+        },
+        "long_opportunity": {
+          "mean": 0.09009009009009009,
+          "sequence_bootstrap_ci95": [
+            0.009009009009009009,
+            0.1891891891891892
+          ],
+          "sequences": 37
+        },
+        "short_reversal": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 37
+        },
+        "reversal_01": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 37
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 37
+        },
+        "policy_intervenes": {
+          "mean": 0.9031531531531531,
+          "sequence_bootstrap_ci95": [
+            0.8243243243243243,
+            0.9662162162162162
+          ],
+          "sequences": 37
+        },
+        "short_tail_gain": {
+          "mean": 0.017514165094083777,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.052542495282251335
+          ],
+          "sequences": 37
+        }
+      },
+      "counts": {
+        "mismatch": 7,
+        "short_intervenes": 6,
+        "short_opportunity": 4,
+        "long_opportunity": 4,
+        "short_reversal": 0,
+        "reversal_01": 0,
+        "reversal_05": 0,
+        "policy_intervenes": 57
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 4,
+        "negative64": 0,
+        "negative64_at_least_01": 0,
+        "mean_gain64": 0.2038278639486845
+      }
+    },
+    "event/fixed8/healthy": {
+      "sequences": 48,
+      "points": 51,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.05972104135974504,
+          "sequence_bootstrap_ci95": [
+            0.0298673759716181,
+            0.09494005212303186
+          ],
+          "sequences": 48
+        },
+        "short_gain32": {
+          "mean": 0.05355412389843476,
+          "sequence_bootstrap_ci95": [
+            0.018125802111486188,
+            0.09857134574764874
+          ],
+          "sequences": 48
+        },
+        "short_gain64": {
+          "mean": 0.028481962599555034,
+          "sequence_bootstrap_ci95": [
+            0.00023143690778033754,
+            0.060373023030453075
+          ],
+          "sequences": 48
+        },
+        "short_regret64": {
+          "mean": 0.022399618506794953,
+          "sequence_bootstrap_ci95": [
+            0.003201272730485642,
+            0.05422016643262535
+          ],
+          "sequences": 48
+        },
+        "middle_gain64": {
+          "mean": 0.049182005667964185,
+          "sequence_bootstrap_ci95": [
+            0.022133823901687475,
+            0.08114416646477686
+          ],
+          "sequences": 48
+        },
+        "middle_regret64": {
+          "mean": 0.001699575438385804,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.004287546379619404
+          ],
+          "sequences": 48
+        },
+        "longer_selection_gain64": {
+          "mean": 0.020700043068409148,
+          "sequence_bootstrap_ci95": [
+            0.0016105682586723274,
+            0.05236445734249078
+          ],
+          "sequences": 48
+        },
+        "oracle32_gain": {
+          "mean": 0.07561205376854711,
+          "sequence_bootstrap_ci95": [
+            0.03402611726894464,
+            0.12514271526151485
+          ],
+          "sequences": 48
+        },
+        "oracle64_gain": {
+          "mean": 0.05088158110634999,
+          "sequence_bootstrap_ci95": [
+            0.024158274688048712,
+            0.08257266022152189
+          ],
+          "sequences": 48
+        },
+        "policy_gain8": {
+          "mean": 0.04014322093342929,
+          "sequence_bootstrap_ci95": [
+            0.014343013485731162,
+            0.0708307812979287
+          ],
+          "sequences": 48
+        },
+        "policy_gain32": {
+          "mean": 0.04293131468844009,
+          "sequence_bootstrap_ci95": [
+            -0.001622467974804936,
+            0.08983799239734208
+          ],
+          "sequences": 48
+        },
+        "policy_gain64": {
+          "mean": 0.019728774979071145,
+          "sequence_bootstrap_ci95": [
+            -0.018983709993427154,
+            0.0548663670205196
+          ],
+          "sequences": 48
+        },
+        "policy_regret64": {
+          "mean": 0.031152806127278845,
+          "sequence_bootstrap_ci95": [
+            0.00329179415622216,
+            0.07156842337655972
+          ],
+          "sequences": 48
+        },
+        "mismatch": {
+          "mean": 0.20833333333333334,
+          "sequence_bootstrap_ci95": [
+            0.10416666666666667,
+            0.3333333333333333
+          ],
+          "sequences": 48
+        },
+        "short_intervenes": {
+          "mean": 0.7604166666666666,
+          "sequence_bootstrap_ci95": [
+            0.6354166666666666,
+            0.875
+          ],
+          "sequences": 48
+        },
+        "short_opportunity": {
+          "mean": 0.25,
+          "sequence_bootstrap_ci95": [
+            0.125,
+            0.375
+          ],
+          "sequences": 48
+        },
+        "long_opportunity": {
+          "mean": 0.22916666666666666,
+          "sequence_bootstrap_ci95": [
+            0.125,
+            0.3541666666666667
+          ],
+          "sequences": 48
+        },
+        "short_reversal": {
+          "mean": 0.041666666666666664,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.10416666666666667
+          ],
+          "sequences": 48
+        },
+        "reversal_01": {
+          "mean": 0.020833333333333332,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0625
+          ],
+          "sequences": 48
+        },
+        "reversal_05": {
+          "mean": 0.020833333333333332,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0625
+          ],
+          "sequences": 48
+        },
+        "policy_intervenes": {
+          "mean": 1.0,
+          "sequence_bootstrap_ci95": [
+            1.0,
+            1.0
+          ],
+          "sequences": 48
+        },
+        "short_tail_gain": {
+          "mean": 0.003411459944569257,
+          "sequence_bootstrap_ci95": [
+            -0.03329851054589916,
+            0.03528469408357956
+          ],
+          "sequences": 48
+        }
+      },
+      "counts": {
+        "mismatch": 10,
+        "short_intervenes": 38,
+        "short_opportunity": 12,
+        "long_opportunity": 11,
+        "short_reversal": 2,
+        "reversal_01": 1,
+        "reversal_05": 1,
+        "policy_intervenes": 51
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 14,
+        "negative64": 1,
+        "negative64_at_least_01": 1,
+        "mean_gain64": 0.10355498708604104
+      }
+    },
+    "event/fixed8/failed": {
+      "sequences": 69,
+      "points": 73,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.04958813081128789,
+          "sequence_bootstrap_ci95": [
+            0.02209701717278771,
+            0.08277612940756318
+          ],
+          "sequences": 69
+        },
+        "short_gain32": {
+          "mean": 0.021422861355918598,
+          "sequence_bootstrap_ci95": [
+            0.009247528427587134,
+            0.03632214083013311
+          ],
+          "sequences": 69
+        },
+        "short_gain64": {
+          "mean": 0.009948546160562588,
+          "sequence_bootstrap_ci95": [
+            0.004124698830490066,
+            0.017139735877834236
+          ],
+          "sequences": 69
+        },
+        "short_regret64": {
+          "mean": 0.024860487804967375,
+          "sequence_bootstrap_ci95": [
+            0.0054382519021805974,
+            0.049295627907356476
+          ],
+          "sequences": 69
+        },
+        "middle_gain64": {
+          "mean": 0.02673507728656894,
+          "sequence_bootstrap_ci95": [
+            0.008495973221826074,
+            0.05036037312216518
+          ],
+          "sequences": 69
+        },
+        "middle_regret64": {
+          "mean": 0.008073956678961014,
+          "sequence_bootstrap_ci95": [
+            0.00045608123164966977,
+            0.018677833090105404
+          ],
+          "sequences": 69
+        },
+        "longer_selection_gain64": {
+          "mean": 0.016786531126006362,
+          "sequence_bootstrap_ci95": [
+            -4.664656261319733e-05,
+            0.039415165949359635
+          ],
+          "sequences": 69
+        },
+        "oracle32_gain": {
+          "mean": 0.03698308792240721,
+          "sequence_bootstrap_ci95": [
+            0.017182902377513087,
+            0.060426720145231136
+          ],
+          "sequences": 69
+        },
+        "oracle64_gain": {
+          "mean": 0.034809033965529965,
+          "sequence_bootstrap_ci95": [
+            0.01504103226530352,
+            0.059268426828399695
+          ],
+          "sequences": 69
+        },
+        "policy_gain8": {
+          "mean": 0.013138298873598681,
+          "sequence_bootstrap_ci95": [
+            -0.016300927504790095,
+            0.04384855825260721
+          ],
+          "sequences": 69
+        },
+        "policy_gain32": {
+          "mean": -0.01476935413414155,
+          "sequence_bootstrap_ci95": [
+            -0.04681064549240441,
+            0.01130428555647298
+          ],
+          "sequences": 69
+        },
+        "policy_gain64": {
+          "mean": -0.018012446669426006,
+          "sequence_bootstrap_ci95": [
+            -0.04487016918246079,
+            0.0034029266091144855
+          ],
+          "sequences": 69
+        },
+        "policy_regret64": {
+          "mean": 0.05282148063495596,
+          "sequence_bootstrap_ci95": [
+            0.024658633700787802,
+            0.08622023207341671
+          ],
+          "sequences": 69
+        },
+        "mismatch": {
+          "mean": 0.16666666666666666,
+          "sequence_bootstrap_ci95": [
+            0.08695652173913043,
+            0.2536231884057971
+          ],
+          "sequences": 69
+        },
+        "short_intervenes": {
+          "mean": 0.2753623188405797,
+          "sequence_bootstrap_ci95": [
+            0.17391304347826086,
+            0.37681159420289856
+          ],
+          "sequences": 69
+        },
+        "short_opportunity": {
+          "mean": 0.1956521739130435,
+          "sequence_bootstrap_ci95": [
+            0.10869565217391304,
+            0.2898550724637681
+          ],
+          "sequences": 69
+        },
+        "long_opportunity": {
+          "mean": 0.15942028985507245,
+          "sequence_bootstrap_ci95": [
+            0.07971014492753623,
+            0.2463768115942029
+          ],
+          "sequences": 69
+        },
+        "short_reversal": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 69
+        },
+        "reversal_01": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 69
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 69
+        },
+        "policy_intervenes": {
+          "mean": 0.8333333333333334,
+          "sequence_bootstrap_ci95": [
+            0.7463768115942029,
+            0.9130434782608695
+          ],
+          "sequences": 69
+        },
+        "short_tail_gain": {
+          "mean": -0.0015482068147168618,
+          "sequence_bootstrap_ci95": [
+            -0.006984515138741959,
+            0.0021679146038934742
+          ],
+          "sequences": 68
+        }
+      },
+      "counts": {
+        "mismatch": 12,
+        "short_intervenes": 21,
+        "short_opportunity": 14,
+        "long_opportunity": 12,
+        "short_reversal": 0,
+        "reversal_01": 0,
+        "reversal_05": 0,
+        "policy_intervenes": 61
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 19,
+        "negative64": 0,
+        "negative64_at_least_01": 0,
+        "mean_gain64": 0.03791293735302842
+      }
+    },
+    "event/aggregate/healthy": {
+      "sequences": 48,
+      "points": 51,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.043503979300663354,
+          "sequence_bootstrap_ci95": [
+            0.019407198084558406,
+            0.07345705033099209
+          ],
+          "sequences": 48
+        },
+        "short_gain32": {
+          "mean": 0.029861438284286838,
+          "sequence_bootstrap_ci95": [
+            0.00654824296090502,
+            0.061196277578648255
+          ],
+          "sequences": 48
+        },
+        "short_gain64": {
+          "mean": 0.01860512017257128,
+          "sequence_bootstrap_ci95": [
+            0.0023873100031436985,
+            0.04147159323459672
+          ],
+          "sequences": 48
+        },
+        "short_regret64": {
+          "mean": 0.014623954829976395,
+          "sequence_bootstrap_ci95": [
+            0.0010903934531492241,
+            0.037229408657097694
+          ],
+          "sequences": 48
+        },
+        "middle_gain64": {
+          "mean": 0.029583058438572323,
+          "sequence_bootstrap_ci95": [
+            0.00792027645335756,
+            0.05750711613971724
+          ],
+          "sequences": 48
+        },
+        "middle_regret64": {
+          "mean": 0.0036460165639753558,
+          "sequence_bootstrap_ci95": [
+            9.177075454237331e-05,
+            0.01054182456165549
+          ],
+          "sequences": 48
+        },
+        "longer_selection_gain64": {
+          "mean": 0.01097793826600104,
+          "sequence_bootstrap_ci95": [
+            0.0001242653651060591,
+            0.030766180569492884
+          ],
+          "sequences": 48
+        },
+        "oracle32_gain": {
+          "mean": 0.04685226684281232,
+          "sequence_bootstrap_ci95": [
+            0.014921969611006032,
+            0.0875443813322685
+          ],
+          "sequences": 48
+        },
+        "oracle64_gain": {
+          "mean": 0.033229075002547674,
+          "sequence_bootstrap_ci95": [
+            0.011036856996207205,
+            0.0613577113336893
+          ],
+          "sequences": 48
+        },
+        "policy_gain8": {
+          "mean": -0.006590372388871404,
+          "sequence_bootstrap_ci95": [
+            -0.03373390374976577,
+            0.01919631076431123
+          ],
+          "sequences": 48
+        },
+        "policy_gain32": {
+          "mean": -0.007138965632061767,
+          "sequence_bootstrap_ci95": [
+            -0.05331931948085776,
+            0.03943700765364771
+          ],
+          "sequences": 48
+        },
+        "policy_gain64": {
+          "mean": -0.01629946134308126,
+          "sequence_bootstrap_ci95": [
+            -0.06621768606584884,
+            0.028946565286663457
+          ],
+          "sequences": 48
+        },
+        "policy_regret64": {
+          "mean": 0.049528536345628926,
+          "sequence_bootstrap_ci95": [
+            0.013083383034339495,
+            0.09675191328845899
+          ],
+          "sequences": 48
+        },
+        "mismatch": {
+          "mean": 0.20833333333333334,
+          "sequence_bootstrap_ci95": [
+            0.10416666666666667,
+            0.3333333333333333
+          ],
+          "sequences": 48
+        },
+        "short_intervenes": {
+          "mean": 0.6666666666666666,
+          "sequence_bootstrap_ci95": [
+            0.53125,
+            0.7916666666666666
+          ],
+          "sequences": 48
+        },
+        "short_opportunity": {
+          "mean": 0.20833333333333334,
+          "sequence_bootstrap_ci95": [
+            0.10416666666666667,
+            0.3333333333333333
+          ],
+          "sequences": 48
+        },
+        "long_opportunity": {
+          "mean": 0.125,
+          "sequence_bootstrap_ci95": [
+            0.041666666666666664,
+            0.22916666666666666
+          ],
+          "sequences": 48
+        },
+        "short_reversal": {
+          "mean": 0.10416666666666667,
+          "sequence_bootstrap_ci95": [
+            0.020833333333333332,
+            0.20833333333333334
+          ],
+          "sequences": 48
+        },
+        "reversal_01": {
+          "mean": 0.020833333333333332,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0625
+          ],
+          "sequences": 48
+        },
+        "reversal_05": {
+          "mean": 0.0,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.0
+          ],
+          "sequences": 48
+        },
+        "policy_intervenes": {
+          "mean": 1.0,
+          "sequence_bootstrap_ci95": [
+            1.0,
+            1.0
+          ],
+          "sequences": 48
+        },
+        "short_tail_gain": {
+          "mean": 0.00735168135706529,
+          "sequence_bootstrap_ci95": [
+            -0.009052219121051365,
+            0.03159518081098995
+          ],
+          "sequences": 48
+        }
+      },
+      "counts": {
+        "mismatch": 10,
+        "short_intervenes": 33,
+        "short_opportunity": 10,
+        "long_opportunity": 6,
+        "short_reversal": 5,
+        "reversal_01": 1,
+        "reversal_05": 0,
+        "policy_intervenes": 51
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 15,
+        "negative64": 2,
+        "negative64_at_least_01": 1,
+        "mean_gain64": 0.06057649913460337
+      }
+    },
+    "event/aggregate/failed": {
+      "sequences": 69,
+      "points": 73,
+      "metrics": {
+        "short_gain8": {
+          "mean": 0.0522965673409317,
+          "sequence_bootstrap_ci95": [
+            0.023473785653683795,
+            0.08630497276650961
+          ],
+          "sequences": 69
+        },
+        "short_gain32": {
+          "mean": 0.02640523748743633,
+          "sequence_bootstrap_ci95": [
+            0.007700991668960233,
+            0.052728253769017866
+          ],
+          "sequences": 69
+        },
+        "short_gain64": {
+          "mean": 0.02308602988740324,
+          "sequence_bootstrap_ci95": [
+            0.001143029287303494,
+            0.05223546778135505
+          ],
+          "sequences": 69
+        },
+        "short_regret64": {
+          "mean": 0.027996344406722922,
+          "sequence_bootstrap_ci95": [
+            0.0054586326138697005,
+            0.05793234742495634
+          ],
+          "sequences": 69
+        },
+        "middle_gain64": {
+          "mean": 0.04669221183945415,
+          "sequence_bootstrap_ci95": [
+            0.016363176533315774,
+            0.08502796634155833
+          ],
+          "sequences": 69
+        },
+        "middle_regret64": {
+          "mean": 0.00439016245467201,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.013104519783581082
+          ],
+          "sequences": 69
+        },
+        "longer_selection_gain64": {
+          "mean": 0.02360618195205091,
+          "sequence_bootstrap_ci95": [
+            0.0030733095037500458,
+            0.052154446111272346
+          ],
+          "sequences": 69
+        },
+        "oracle32_gain": {
+          "mean": 0.047038417690813884,
+          "sequence_bootstrap_ci95": [
+            0.019290280500836806,
+            0.08074771557702937
+          ],
+          "sequences": 69
+        },
+        "oracle64_gain": {
+          "mean": 0.05108237429412616,
+          "sequence_bootstrap_ci95": [
+            0.019150984954489247,
+            0.08988454158156281
+          ],
+          "sequences": 69
+        },
+        "policy_gain8": {
+          "mean": 0.0026640574913718964,
+          "sequence_bootstrap_ci95": [
+            -0.0296067248609511,
+            0.03642723207334553
+          ],
+          "sequences": 69
+        },
+        "policy_gain32": {
+          "mean": 0.002563658631642607,
+          "sequence_bootstrap_ci95": [
+            -0.03876571084308506,
+            0.04501254193344571
+          ],
+          "sequences": 69
+        },
+        "policy_gain64": {
+          "mean": 0.012005315670061861,
+          "sequence_bootstrap_ci95": [
+            -0.03651019662388598,
+            0.06106771156620921
+          ],
+          "sequences": 69
+        },
+        "policy_regret64": {
+          "mean": 0.039077058624064305,
+          "sequence_bootstrap_ci95": [
+            0.012056154653910545,
+            0.07379790633797047
+          ],
+          "sequences": 69
+        },
+        "mismatch": {
+          "mean": 0.16666666666666666,
+          "sequence_bootstrap_ci95": [
+            0.08695652173913043,
+            0.2536231884057971
+          ],
+          "sequences": 69
+        },
+        "short_intervenes": {
+          "mean": 0.2246376811594203,
+          "sequence_bootstrap_ci95": [
+            0.13043478260869565,
+            0.32608695652173914
+          ],
+          "sequences": 69
+        },
+        "short_opportunity": {
+          "mean": 0.1956521739130435,
+          "sequence_bootstrap_ci95": [
+            0.10869565217391304,
+            0.2898550724637681
+          ],
+          "sequences": 69
+        },
+        "long_opportunity": {
+          "mean": 0.14492753623188406,
+          "sequence_bootstrap_ci95": [
+            0.07246376811594203,
+            0.2318840579710145
+          ],
+          "sequences": 69
+        },
+        "short_reversal": {
+          "mean": 0.021739130434782608,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.057971014492753624
+          ],
+          "sequences": 69
+        },
+        "reversal_01": {
+          "mean": 0.007246376811594203,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.021739130434782608
+          ],
+          "sequences": 69
+        },
+        "reversal_05": {
+          "mean": 0.007246376811594203,
+          "sequence_bootstrap_ci95": [
+            0.0,
+            0.021739130434782608
+          ],
+          "sequences": 69
+        },
+        "policy_intervenes": {
+          "mean": 0.8333333333333334,
+          "sequence_bootstrap_ci95": [
+            0.7463768115942029,
+            0.9130434782608695
+          ],
+          "sequences": 69
+        },
+        "short_tail_gain": {
+          "mean": 0.02005751085041973,
+          "sequence_bootstrap_ci95": [
+            -0.007830424311321119,
+            0.055598983576254306
+          ],
+          "sequences": 68
+        }
+      },
+      "counts": {
+        "mismatch": 12,
+        "short_intervenes": 18,
+        "short_opportunity": 15,
+        "long_opportunity": 10,
+        "short_reversal": 2,
+        "reversal_01": 1,
+        "reversal_05": 1,
+        "policy_intervenes": 61
+      },
+      "conditional_short_gain_at_least_01": {
+        "points": 17,
+        "negative64": 2,
+        "negative64_at_least_01": 1,
+        "mean_gain64": 0.08231565745564388
+      }
+    }
+  }
+}

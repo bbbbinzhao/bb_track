@@ -1,0 +1,40 @@
+{
+  "median_fps": {
+    "sra": 31.943181595758738,
+    "mlp_scale": 29.8527107279187,
+    "mlp_joint": 30.51371806794942
+  },
+  "runs_fps": {
+    "sra": [
+      31.47915407380726,
+      31.943181595758738,
+      31.980660886292096
+    ],
+    "mlp_scale": [
+      29.8527107279187,
+      29.778731388943406,
+      30.647247916095566
+    ],
+    "mlp_joint": [
+      29.842621988664842,
+      30.51371806794942,
+      30.630433662250258
+    ]
+  },
+  "frames_per_repeat": 200,
+  "warmup_frames_excluded": 20,
+  "repeats": 3,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "cpu_threads": 1,
+  "timing": "tracking and controller; image decoding excluded",
+  "feature_extraction": "disabled for deployed SRA; included for controllers",
+  "policy_checkpoints": [
+    "output/search_policy/learning_pilot_seed0/mlp_scale/continued_train/policy_supervised_seed0_ep010.pth",
+    "output/search_policy/learning_pilot_seed0/mlp_joint/continued_train/policy_supervised_seed0_ep010.pth"
+  ],
+  "relative_fps_change_percent": {
+    "mlp_scale": -6.544341431905454,
+    "mlp_joint": -4.475019257315038
+  },
+  "scope": "isolated runtime benchmark; full-val accuracy is reported separately"
+}

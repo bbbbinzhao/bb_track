@@ -1,0 +1,80 @@
+{
+  "coverage": {
+    "raw_uniform": 796,
+    "raw_event": 158,
+    "zero_state_sequences": [
+      {
+        "name": "20190926_130341_1_8",
+        "frames": 28
+      }
+    ],
+    "no_visible8": 14,
+    "long_only": 5,
+    "no_visible64": 9
+  },
+  "concentration": {
+    "fixed8": {
+      "event_points": 158,
+      "sequences": 79,
+      "top5_sequences": [
+        {
+          "sequence": "new33_train-new",
+          "mean_gain": 0.3311271401156592
+        },
+        {
+          "sequence": "20190925_222534_1_6",
+          "mean_gain": 0.2579190048131499
+        },
+        {
+          "sequence": "new38_train-new",
+          "mean_gain": 0.25279609032411093
+        },
+        {
+          "sequence": "20190925_143900_1_6",
+          "mean_gain": 0.24520509073544497
+        },
+        {
+          "sequence": "new24_train_newfix",
+          "mean_gain": 0.14542331569219352
+        }
+      ],
+      "top1_fraction": 0.23104619458658376,
+      "top5_fraction": 0.8599646999654431,
+      "mean_excluding_top1": 0.01412868055944716,
+      "negative_sequences": 1,
+      "delayed_opportunity_count": 11
+    },
+    "aggregate": {
+      "event_points": 158,
+      "sequences": 79,
+      "top5_sequences": [
+        {
+          "sequence": "new35_train-new",
+          "mean_gain": 0.3195984843937838
+        },
+        {
+          "sequence": "01_4485_2985-4484",
+          "mean_gain": 0.2877252422059006
+        },
+        {
+          "sequence": "20190925_213001_1_8",
+          "mean_gain": 0.22319487380468125
+        },
+        {
+          "sequence": "20190925_133630_1_6",
+          "mean_gain": 0.21467887257049084
+        },
+        {
+          "sequence": "20190926_183941_1_2",
+          "mean_gain": 0.07175824287092986
+        }
+      ],
+      "top1_fraction": 0.25634603640683695,
+      "top5_fraction": 0.8958965219817471,
+      "mean_excluding_top1": 0.01188651105583479,
+      "negative_sequences": 0,
+      "delayed_opportunity_count": 8
+    }
+  },
+  "cases_selection": "top three event-state effects per category and continuation; harm requires gain8>=.01 and gain64<0; illustrative only"
+}

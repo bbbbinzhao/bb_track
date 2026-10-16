@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "seed": 0,
+  "validation_sequences_per_arm": 90,
+  "arms": [
+    "uniform",
+    "event",
+    "event_continue",
+    "aggregate"
+  ],
+  "test_used": false,
+  "analysis_compatibility_repaired": true,
+  "legacy_data_root_provenance": "Validated all four original SRA source shards",
+  "analysis_complete": true,
+  "tests_passed": 34,
+  "runtime_controlled_retest": true,
+  "runtime_cpu_affinity": [
+    2
+  ],
+  "frozen_network_state_sha256": "fc7cf9e31e1bcd141d68b4769b4d146344e510ca5d20a0ac5a0ad2debf82ec1b",
+  "backbone_sha256": "c259c341eca7179ff5612a034898678337f9d10c2c8d456ca4aae184de7a0564",
+  "parent_replay_check": {
+    "inference_weights_and_configuration_identical": true,
+    "compared_sequences": 90,
+    "max_prediction_error": 0.0,
+    "predictions_bit_identical": true
+  },
+  "three_seed_gate_evaluated": false
+}

@@ -1,0 +1,53 @@
+{
+  "median_fps": {
+    "sra": 39.582831715911176,
+    "one": 37.66771825917797,
+    "eight": 37.631533414769315,
+    "eight_entropy": 37.776533941619505
+  },
+  "runs_fps": {
+    "sra": [
+      39.43070728160537,
+      39.582831715911176,
+      39.74903042214848
+    ],
+    "one": [
+      37.38998846300965,
+      37.74441031799009,
+      37.66771825917797
+    ],
+    "eight": [
+      37.270666610472254,
+      37.63574822517999,
+      37.631533414769315
+    ],
+    "eight_entropy": [
+      37.92005243225038,
+      37.7399282625497,
+      37.776533941619505
+    ]
+  },
+  "frames_per_repeat": 200,
+  "warmup_frames_excluded": 20,
+  "repeats": 3,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "cpu_threads": 1,
+  "timing": "tracking and controller; image decoding excluded",
+  "feature_extraction": "disabled for deployed SRA; included for controllers",
+  "policy_checkpoints": [
+    "output/search_policy/fixed8_horizon_gate/learning_scale_seed0/one/policy_supervised_seed0_ep003.pth",
+    "output/search_policy/fixed8_horizon_gate/learning_scale_seed0/eight/policy_supervised_seed0_ep001.pth",
+    "output/search_policy/fixed8_horizon_gate/learning_entropy_seed0/eight/policy_supervised_seed0_ep003.pth"
+  ],
+  "policy_labels": [
+    "one",
+    "eight",
+    "eight_entropy"
+  ],
+  "relative_fps_change_percent": {
+    "one": -4.838242676719329,
+    "eight": -4.929658178946039,
+    "eight_entropy": -4.5633364162917855
+  },
+  "scope": "isolated runtime benchmark; full-val accuracy is reported separately"
+}

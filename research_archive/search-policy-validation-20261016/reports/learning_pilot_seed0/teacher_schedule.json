@@ -1,0 +1,116 @@
+{
+  "shards": [
+    {
+      "start": 0,
+      "end": 25,
+      "directory": "teacher_000_025"
+    },
+    {
+      "start": 25,
+      "end": 50,
+      "directory": "teacher_025_050"
+    },
+    {
+      "start": 50,
+      "end": 75,
+      "directory": "teacher_050_075"
+    },
+    {
+      "start": 75,
+      "end": 100,
+      "directory": "teacher_075_100"
+    },
+    {
+      "start": 100,
+      "end": 125,
+      "directory": "teacher_100_125"
+    },
+    {
+      "start": 125,
+      "end": 130,
+      "directory": "teacher_125_130"
+    },
+    {
+      "start": 130,
+      "end": 135,
+      "directory": "teacher_130_135"
+    },
+    {
+      "start": 135,
+      "end": 140,
+      "directory": "teacher_135_140"
+    },
+    {
+      "start": 140,
+      "end": 145,
+      "directory": "teacher_140_145"
+    },
+    {
+      "start": 145,
+      "end": 150,
+      "directory": "teacher_145_150"
+    },
+    {
+      "start": 150,
+      "end": 155,
+      "directory": "teacher_150_155"
+    },
+    {
+      "start": 155,
+      "end": 160,
+      "directory": "teacher_155_160"
+    },
+    {
+      "start": 160,
+      "end": 165,
+      "directory": "teacher_160_165"
+    },
+    {
+      "start": 165,
+      "end": 170,
+      "directory": "teacher_165_170"
+    },
+    {
+      "start": 170,
+      "end": 175,
+      "directory": "teacher_170_175"
+    },
+    {
+      "start": 175,
+      "end": 180,
+      "directory": "teacher_175_180"
+    },
+    {
+      "start": 180,
+      "end": 185,
+      "directory": "teacher_180_185"
+    },
+    {
+      "start": 185,
+      "end": 190,
+      "directory": "teacher_185_190"
+    },
+    {
+      "start": 190,
+      "end": 195,
+      "directory": "teacher_190_195"
+    },
+    {
+      "start": 195,
+      "end": 200,
+      "directory": "teacher_195_200"
+    }
+  ],
+  "reused_sequences": 157,
+  "source_manifests": [
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/learning_pilot_seed0/teacher_000_025/manifest.json",
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/learning_pilot_seed0/teacher_025_050/manifest.json",
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/learning_pilot_seed0/teacher_050_075/manifest.json",
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/learning_pilot_seed0/teacher_075_100/manifest.json",
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/learning_pilot_seed0/teacher_100_125/manifest.json",
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/learning_pilot_seed0/teacher_125_150/manifest.json",
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/learning_pilot_seed0/teacher_150_175/manifest.json",
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/learning_pilot_seed0/teacher_175_200/manifest.json"
+  ],
+  "note": "Scheduling only; samples and supervision are unchanged. Stop collectors before refinement."
+}

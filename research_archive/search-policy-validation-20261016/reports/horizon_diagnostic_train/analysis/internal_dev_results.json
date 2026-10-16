@@ -1,0 +1,38 @@
+{
+  "protocol": "matched_state_nested_horizon_v1",
+  "split": "train_internal_dev20",
+  "sequences": 20,
+  "frames": 23154,
+  "selection": "unchanged_previously_selected_checkpoint_and_margin",
+  "fixed8": {
+    "visible_iou": 0.716136957531328,
+    "visible_auc": 0.7089118155735965,
+    "mixed_measure": 0.699075104212966,
+    "fps": null,
+    "recovery_rate_30": 0.5238095238095238,
+    "recovery_latency": 5.214285714285714,
+    "recovery_unrecovered": 0.47619047619047616,
+    "recovery_event_count": 21,
+    "recovered_event_count": 11
+  },
+  "aggregate": {
+    "visible_iou": 0.6995631413202709,
+    "visible_auc": 0.6939018841854093,
+    "mixed_measure": 0.6871173960466412,
+    "fps": null,
+    "recovery_rate_30": 0.23809523809523808,
+    "recovery_latency": 8.0,
+    "recovery_unrecovered": 0.761904761904762,
+    "recovery_event_count": 21,
+    "recovered_event_count": 3
+  },
+  "delta": -0.01657381621105725,
+  "paired_sequence_ci95": [
+    -0.08925790845524205,
+    0.03362678452737128
+  ],
+  "improved_sequences": 14,
+  "worse_sequences": 6,
+  "all_shards_audited": true,
+  "network_state_sha256": "fc7cf9e31e1bcd141d68b4769b4d146344e510ca5d20a0ac5a0ad2debf82ec1b"
+}

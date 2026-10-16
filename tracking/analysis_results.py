@@ -4,7 +4,7 @@ plt.rcParams['figure.figsize'] = [8, 8]
 
 from lib.test.analysis.plot_results import plot_results, print_results, print_per_sequence_results
 from lib.test.evaluation import get_dataset, trackerlist
-from tracking.plot_utils import read_avg_overlap_all_from_eval_data_pkl, draw_comp_plot
+#from tracking.plot_utils import read_avg_overlap_all_from_eval_data_pkl, draw_comp_plot
 import argparse
 import pickle
 import torch

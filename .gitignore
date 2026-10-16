@@ -177,3 +177,10 @@ lib/train/admin/local.py
 
 *.mp4
 /anno/*
+
+# Reference sources and archives remain local.
+.DS_Store
+/*.zip
+/*.pdf
+/SLTtrack-master/
+/toolkit-master/

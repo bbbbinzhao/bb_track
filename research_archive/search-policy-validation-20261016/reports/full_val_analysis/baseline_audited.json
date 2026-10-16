@@ -1,0 +1,1594 @@
+{
+  "baseline_sha256": "c259c341eca7179ff5612a034898678337f9d10c2c8d456ca4aae184de7a0564",
+  "summary": {
+    "visible_iou": 0.6993561351012303,
+    "visible_auc": 0.6925981204243018,
+    "mixed_measure": 0.6911767124032157,
+    "fps": 35.83337480509987,
+    "recovery_rate_30": 0.5046296296296295,
+    "recovery_latency": 8.1,
+    "recovery_unrecovered": 0.49537037037037035,
+    "sequences": 90,
+    "frames": 94711,
+    "failure_events": 109,
+    "mean_center_outside_rate": 0.10495060237574917,
+    "mean_coverage": 0.8947814716214809,
+    "mean_target_pixels": 42.37609646782707,
+    "recovery_event_count": 35,
+    "recovery_event_rate_30": 0.4,
+    "recovery_event_latency": 7.642857142857143,
+    "recovery_event_unrecovered": 0.6
+  },
+  "summary_ci": {
+    "visible_iou": [
+      0.6516398953186872,
+      0.7428281589622654
+    ],
+    "visible_auc": [
+      0.6484899045627083,
+      0.7327723550895514
+    ],
+    "mixed_measure": [
+      0.6436318344697441,
+      0.7354035435852936
+    ]
+  },
+  "sequences": {
+    "03_7951_1500-2999": {
+      "metrics": {
+        "visible_iou": 0.3108704568035735,
+        "visible_auc": 0.3345467663649482,
+        "mixed_measure": 0.30158926885252585,
+        "fps": 35.81768555043961,
+        "recovery_rate_30": 0.0,
+        "recovery_latency": null,
+        "recovery_unrecovered": 1.0,
+        "recovery_events": 1,
+        "recovery_delays": [
+          null
+        ],
+        "visible_valid_frames": 1452
+      },
+      "failure_starts": [
+        614
+      ]
+    },
+    "20190925_130434_1_1": {
+      "metrics": {
+        "visible_iou": 0.8482345351202676,
+        "visible_auc": 0.8317364984031653,
+        "mixed_measure": 0.8483863005851473,
+        "fps": 35.1715961008885,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190925_130434_1_5": {
+      "metrics": {
+        "visible_iou": 0.8652541616987991,
+        "visible_auc": 0.8488011821345156,
+        "mixed_measure": 0.8653889075371003,
+        "fps": 35.29153261995474,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190925_130434_1_6": {
+      "metrics": {
+        "visible_iou": 0.8196518131508072,
+        "visible_auc": 0.803708470375137,
+        "mixed_measure": 0.8198321613376564,
+        "fps": 35.79044797340986,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190925_130434_1_8": {
+      "metrics": {
+        "visible_iou": 0.8060193322954992,
+        "visible_auc": 0.7919347919347919,
+        "mixed_measure": 0.8062133129632036,
+        "fps": 35.735987703812675,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": [
+        913
+      ]
+    },
+    "20190925_131530_1_3": {
+      "metrics": {
+        "visible_iou": 0.860629119548932,
+        "visible_auc": 0.8432718432718435,
+        "mixed_measure": 0.8607684904293831,
+        "fps": 35.53001074148963,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190925_133630_1_9": {
+      "metrics": {
+        "visible_iou": 0.6804957245508094,
+        "visible_auc": 0.6730063396730064,
+        "mixed_measure": 0.6808152288262586,
+        "fps": 35.50776350665935,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": [
+        290
+      ]
+    },
+    "20190925_140917_1_3": {
+      "metrics": {
+        "visible_iou": 0.8236633397689554,
+        "visible_auc": 0.8099532398129592,
+        "mixed_measure": 0.8238398529423598,
+        "fps": 35.39609365438183,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 998
+      },
+      "failure_starts": [
+        258,
+        359,
+        366
+      ]
+    },
+    "20190925_140917_1_6": {
+      "metrics": {
+        "visible_iou": 0.7643990774967362,
+        "visible_auc": 0.7538014204680872,
+        "mixed_measure": 0.7646346784192395,
+        "fps": 35.39785330550162,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": [
+        97,
+        119,
+        213,
+        270,
+        558,
+        654
+      ]
+    },
+    "20190925_141417_1_1": {
+      "metrics": {
+        "visible_iou": 0.7201177502410828,
+        "visible_auc": 0.7109013775680442,
+        "mixed_measure": 0.7203976324908418,
+        "fps": 35.69920035863184,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190925_141417_1_6": {
+      "metrics": {
+        "visible_iou": 0.8082895981512541,
+        "visible_auc": 0.7945087945087944,
+        "mixed_measure": 0.8084813085531029,
+        "fps": 35.692781434743054,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190925_141417_1_7": {
+      "metrics": {
+        "visible_iou": 0.8172915433760364,
+        "visible_auc": 0.8018971352304686,
+        "mixed_measure": 0.8174742518326602,
+        "fps": 35.744998292971516,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190925_143900_1_1": {
+      "metrics": {
+        "visible_iou": 0.7292088135045415,
+        "visible_auc": 0.7196720530053863,
+        "mixed_measure": 0.7294796046910369,
+        "fps": 35.350604433934976,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": [
+        523
+      ]
+    },
+    "20190925_143900_1_2": {
+      "metrics": {
+        "visible_iou": 0.7586971589672311,
+        "visible_auc": 0.7465560798894132,
+        "mixed_measure": 0.758938461808264,
+        "fps": 35.863739990478,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190925_143900_1_7": {
+      "metrics": {
+        "visible_iou": 0.8116048010656604,
+        "visible_auc": 0.7972257972257973,
+        "mixed_measure": 0.8117931962645946,
+        "fps": 35.876962711557155,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190925_152412_1_3": {
+      "metrics": {
+        "visible_iou": 0.6191394111543879,
+        "visible_auc": 0.6161311914323963,
+        "mixed_measure": 0.6176628535097705,
+        "fps": 35.91295540361649,
+        "recovery_rate_30": 1.0,
+        "recovery_latency": 2.0,
+        "recovery_unrecovered": 0.0,
+        "recovery_events": 1,
+        "recovery_delays": [
+          2
+        ],
+        "visible_valid_frames": 996
+      },
+      "failure_starts": [
+        357,
+        868
+      ]
+    },
+    "20190925_152412_1_5": {
+      "metrics": {
+        "visible_iou": 0.7151016946556741,
+        "visible_auc": 0.7053243719910387,
+        "mixed_measure": 0.7153865929610185,
+        "fps": 35.75787175320146,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": [
+        317
+      ]
+    },
+    "20190925_183946_1_1": {
+      "metrics": {
+        "visible_iou": 0.7448310813289778,
+        "visible_auc": 0.7345545977011494,
+        "mixed_measure": 0.7451057518549962,
+        "fps": 35.78994320691455,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 928
+      },
+      "failure_starts": [
+        249,
+        264
+      ]
+    },
+    "20190925_183946_1_2": {
+      "metrics": {
+        "visible_iou": 0.807840514020076,
+        "visible_auc": 0.7931877535144749,
+        "mixed_measure": 0.8080644761249477,
+        "fps": 35.75833504097846,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 857
+      },
+      "failure_starts": []
+    },
+    "20190925_183946_1_3": {
+      "metrics": {
+        "visible_iou": 0.7979690456318255,
+        "visible_auc": 0.7838791172124505,
+        "mixed_measure": 0.7981710765861937,
+        "fps": 35.82453711808201,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190925_194211_1_3": {
+      "metrics": {
+        "visible_iou": 0.7970620308324663,
+        "visible_auc": 0.7833653640828528,
+        "mixed_measure": 0.7823948697830329,
+        "fps": 36.0076769490522,
+        "recovery_rate_30": 1.0,
+        "recovery_latency": 11.0,
+        "recovery_unrecovered": 0.0,
+        "recovery_events": 1,
+        "recovery_delays": [
+          11
+        ],
+        "visible_valid_frames": 892
+      },
+      "failure_starts": [
+        25
+      ]
+    },
+    "20190925_194211_1_4": {
+      "metrics": {
+        "visible_iou": 0.7548385565445564,
+        "visible_auc": 0.7442811695197697,
+        "mixed_measure": 0.755098261463471,
+        "fps": 38.03143969817748,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 943
+      },
+      "failure_starts": [
+        335
+      ]
+    },
+    "20190925_200320_1_4": {
+      "metrics": {
+        "visible_iou": 0.8047197767647034,
+        "visible_auc": 0.7899969409605383,
+        "mixed_measure": 0.804928632618431,
+        "fps": 37.7045692645518,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 934
+      },
+      "failure_starts": []
+    },
+    "20190925_200320_1_8": {
+      "metrics": {
+        "visible_iou": 0.8821886253180914,
+        "visible_auc": 0.8646616541353384,
+        "mixed_measure": 0.8852094297971147,
+        "fps": 29.292995100486998,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 38
+      },
+      "failure_starts": []
+    },
+    "20190925_205804_1_5": {
+      "metrics": {
+        "visible_iou": 0.8250106998454573,
+        "visible_auc": 0.8092087992859769,
+        "mixed_measure": 0.7796927208739125,
+        "fps": 34.530171373180266,
+        "recovery_rate_30": 1.0,
+        "recovery_latency": 20.0,
+        "recovery_unrecovered": 0.0,
+        "recovery_events": 1,
+        "recovery_delays": [
+          20
+        ],
+        "visible_valid_frames": 907
+      },
+      "failure_starts": [
+        552
+      ]
+    },
+    "20190925_205804_1_6": {
+      "metrics": {
+        "visible_iou": 0.8518252829934564,
+        "visible_auc": 0.8348814862267778,
+        "mixed_measure": 0.8234070913746354,
+        "fps": 34.82454194837361,
+        "recovery_rate_30": 1.0,
+        "recovery_latency": 14.0,
+        "recovery_unrecovered": 0.0,
+        "recovery_events": 1,
+        "recovery_delays": [
+          14
+        ],
+        "visible_valid_frames": 892
+      },
+      "failure_starts": [
+        642
+      ]
+    },
+    "20190925_210802_1_3": {
+      "metrics": {
+        "visible_iou": 0.8495875452418337,
+        "visible_auc": 0.8332035104117983,
+        "mixed_measure": 0.8396897513312825,
+        "fps": 34.42476874299886,
+        "recovery_rate_30": 1.0,
+        "recovery_latency": 5.0,
+        "recovery_unrecovered": 0.0,
+        "recovery_events": 1,
+        "recovery_delays": [
+          5
+        ],
+        "visible_valid_frames": 917
+      },
+      "failure_starts": []
+    },
+    "20190925_210802_1_6": {
+      "metrics": {
+        "visible_iou": 0.877249883461688,
+        "visible_auc": 0.8585150175331604,
+        "mixed_measure": 0.8773807471253748,
+        "fps": 34.52442700095323,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 937
+      },
+      "failure_starts": []
+    },
+    "20190925_210802_1_8": {
+      "metrics": {
+        "visible_iou": 0.8441815081421761,
+        "visible_auc": 0.8283955627705628,
+        "mixed_measure": 0.8444025272795632,
+        "fps": 34.782979391004574,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 704
+      },
+      "failure_starts": [
+        245
+      ]
+    },
+    "20190925_213001_1_1": {
+      "metrics": {
+        "visible_iou": 0.6610861260425545,
+        "visible_auc": 0.6553917863441673,
+        "mixed_measure": 0.6615338326131721,
+        "fps": 34.75719112487469,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 756
+      },
+      "failure_starts": [
+        575
+      ]
+    },
+    "20190925_213001_1_3": {
+      "metrics": {
+        "visible_iou": 0.8313912672412563,
+        "visible_auc": 0.8166072074866865,
+        "mixed_measure": 0.8315741400533591,
+        "fps": 34.81798907244585,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 921
+      },
+      "failure_starts": []
+    },
+    "20190925_222534_1_5": {
+      "metrics": {
+        "visible_iou": 0.7935715516357964,
+        "visible_auc": 0.7804947804947806,
+        "mixed_measure": 0.7937779800841608,
+        "fps": 34.83516352184046,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190925_222534_1_7": {
+      "metrics": {
+        "visible_iou": 0.7591144612722307,
+        "visible_auc": 0.7484015650348316,
+        "mixed_measure": 0.7593555879376239,
+        "fps": 34.57360259457085,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 998
+      },
+      "failure_starts": [
+        32
+      ]
+    },
+    "20190925_222534_1_8": {
+      "metrics": {
+        "visible_iou": 0.8127577088624772,
+        "visible_auc": 0.7979874980942218,
+        "mixed_measure": 0.8129573275097454,
+        "fps": 34.74691276974244,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 937
+      },
+      "failure_starts": []
+    },
+    "20190926_095902_1_3": {
+      "metrics": {
+        "visible_iou": 0.753251840089606,
+        "visible_auc": 0.7420372122358878,
+        "mixed_measure": 0.5708468329335195,
+        "fps": 34.38134104014679,
+        "recovery_rate_30": 1.0,
+        "recovery_latency": 11.0,
+        "recovery_unrecovered": 0.0,
+        "recovery_events": 2,
+        "recovery_delays": [
+          16,
+          6
+        ],
+        "visible_valid_frames": 755
+      },
+      "failure_starts": [
+        301
+      ]
+    },
+    "20190926_095902_1_8": {
+      "metrics": {
+        "visible_iou": 0.6045621374983056,
+        "visible_auc": 0.6036615055019963,
+        "mixed_measure": 0.5922617704733428,
+        "fps": 34.67747465807162,
+        "recovery_rate_30": 0.0,
+        "recovery_latency": null,
+        "recovery_unrecovered": 1.0,
+        "recovery_events": 1,
+        "recovery_delays": [
+          null
+        ],
+        "visible_valid_frames": 978
+      },
+      "failure_starts": [
+        826
+      ]
+    },
+    "20190926_103046_1_2": {
+      "metrics": {
+        "visible_iou": 0.8094992644335506,
+        "visible_auc": 0.7952714619381286,
+        "mixed_measure": 0.809689765169117,
+        "fps": 34.765124627919946,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_103046_1_8": {
+      "metrics": {
+        "visible_iou": 0.8100198653682467,
+        "visible_auc": 0.7940569928758906,
+        "mixed_measure": 0.8103931072830438,
+        "fps": 34.624314738085296,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 508
+      },
+      "failure_starts": []
+    },
+    "20190926_130341_1_5": {
+      "metrics": {
+        "visible_iou": 0.8711928237655597,
+        "visible_auc": 0.853472520139187,
+        "mixed_measure": 0.8713216309417942,
+        "fps": 34.27497843559286,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_133516_1_2": {
+      "metrics": {
+        "visible_iou": 0.8428057381907932,
+        "visible_auc": 0.8268744935411603,
+        "mixed_measure": 0.8429629324526025,
+        "fps": 34.475187553772,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_133516_1_3": {
+      "metrics": {
+        "visible_iou": 0.8473170717835317,
+        "visible_auc": 0.8306401639734973,
+        "mixed_measure": 0.8474697547117481,
+        "fps": 35.09501292346146,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_133516_1_5": {
+      "metrics": {
+        "visible_iou": 0.7870370597071777,
+        "visible_auc": 0.7739167739167738,
+        "mixed_measure": 0.7872500226474706,
+        "fps": 35.3148911545076,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_133516_1_6": {
+      "metrics": {
+        "visible_iou": 0.7988230908966671,
+        "visible_auc": 0.7843557843557843,
+        "mixed_measure": 0.7990242678057705,
+        "fps": 34.78703019842213,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_141816_1_2": {
+      "metrics": {
+        "visible_iou": 0.8868279888397151,
+        "visible_auc": 0.8693455360122025,
+        "mixed_measure": 0.8869411608508755,
+        "fps": 34.45298820980439,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_141816_1_4": {
+      "metrics": {
+        "visible_iou": 0.8536604988271167,
+        "visible_auc": 0.8370275036941702,
+        "mixed_measure": 0.8538068383282895,
+        "fps": 34.493787748068655,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_141816_1_6": {
+      "metrics": {
+        "visible_iou": 0.8264765067286985,
+        "visible_auc": 0.8105724772391438,
+        "mixed_measure": 0.8266500302219698,
+        "fps": 34.89792853167151,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_141816_1_9": {
+      "metrics": {
+        "visible_iou": 0.8221704269880629,
+        "visible_auc": 0.8072468072468074,
+        "mixed_measure": 0.7919279507625164,
+        "fps": 35.83323543993601,
+        "recovery_rate_30": 1.0,
+        "recovery_latency": 7.0,
+        "recovery_unrecovered": 0.0,
+        "recovery_events": 2,
+        "recovery_delays": [
+          2,
+          12
+        ],
+        "visible_valid_frames": 962
+      },
+      "failure_starts": [
+        187
+      ]
+    },
+    "20190926_142435_1_9": {
+      "metrics": {
+        "visible_iou": 0.7833210408190876,
+        "visible_auc": 0.7697347395333974,
+        "mixed_measure": 0.7840457196123348,
+        "fps": 36.0090261657521,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 298
+      },
+      "failure_starts": []
+    },
+    "20190926_143632_1_2": {
+      "metrics": {
+        "visible_iou": 0.8389428891290037,
+        "visible_auc": 0.8225368225368227,
+        "mixed_measure": 0.8391039462398748,
+        "fps": 36.12319947793119,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_143632_1_4": {
+      "metrics": {
+        "visible_iou": 0.8122098860838647,
+        "visible_auc": 0.7973687973687976,
+        "mixed_measure": 0.8123976761977808,
+        "fps": 35.838960938553875,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_143632_1_8": {
+      "metrics": {
+        "visible_iou": 0.8096578300261279,
+        "visible_auc": 0.7954601529731062,
+        "mixed_measure": 0.8099860061812553,
+        "fps": 36.19888800946327,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 579
+      },
+      "failure_starts": []
+    },
+    "20190926_144550_1_1": {
+      "metrics": {
+        "visible_iou": 0.8318651633493698,
+        "visible_auc": 0.8158158158158157,
+        "mixed_measure": 0.8320332981860202,
+        "fps": 36.221557338128825,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_144550_1_10": {
+      "metrics": {
+        "visible_iou": 0.901807275154757,
+        "visible_auc": 0.8821910266996975,
+        "mixed_measure": 0.9023716011596147,
+        "fps": 36.0778471331037,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 173
+      },
+      "failure_starts": []
+    },
+    "20190926_144550_1_4": {
+      "metrics": {
+        "visible_iou": 0.8417765953695203,
+        "visible_auc": 0.825730492397159,
+        "mixed_measure": 0.8419348187741507,
+        "fps": 36.16555912746357,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_144550_1_7": {
+      "metrics": {
+        "visible_iou": 0.8302743294677796,
+        "visible_auc": 0.8147671481004815,
+        "mixed_measure": 0.8304440551383118,
+        "fps": 36.153076375858205,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_183400_1_1": {
+      "metrics": {
+        "visible_iou": 0.8029612942766368,
+        "visible_auc": 0.7888364555031222,
+        "mixed_measure": 0.8031583329823602,
+        "fps": 35.40300981743222,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_183400_1_4": {
+      "metrics": {
+        "visible_iou": 0.8072952982758599,
+        "visible_auc": 0.7914581247914579,
+        "mixed_measure": 0.807488002977584,
+        "fps": 35.86625066216778,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_183400_1_6": {
+      "metrics": {
+        "visible_iou": 0.7739119045807086,
+        "visible_auc": 0.7610467610467611,
+        "mixed_measure": 0.7741379926761278,
+        "fps": 36.01658715316155,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_183941_1_3": {
+      "metrics": {
+        "visible_iou": 0.771981911928815,
+        "visible_auc": 0.7597498160412067,
+        "mixed_measure": 0.7169044137231385,
+        "fps": 36.14702257226653,
+        "recovery_rate_30": 1.0,
+        "recovery_latency": 4.0,
+        "recovery_unrecovered": 0.0,
+        "recovery_events": 1,
+        "recovery_delays": [
+          4
+        ],
+        "visible_valid_frames": 906
+      },
+      "failure_starts": [
+        226
+      ]
+    },
+    "20190926_183941_1_5": {
+      "metrics": {
+        "visible_iou": 0.795805518862923,
+        "visible_auc": 0.7809427414690572,
+        "mixed_measure": 0.7960119844656904,
+        "fps": 36.12165114017608,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 988
+      },
+      "failure_starts": []
+    },
+    "20190926_195921_1_1": {
+      "metrics": {
+        "visible_iou": 0.7839246378858773,
+        "visible_auc": 0.7701034367701034,
+        "mixed_measure": 0.7841407132479915,
+        "fps": 36.299407139669114,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_195921_1_5": {
+      "metrics": {
+        "visible_iou": 0.7302238571205837,
+        "visible_auc": 0.7188617188617188,
+        "mixed_measure": 0.7304936332634633,
+        "fps": 35.98722587139061,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_195921_1_6": {
+      "metrics": {
+        "visible_iou": 0.6797642406195167,
+        "visible_auc": 0.6710996710996711,
+        "mixed_measure": 0.6800844763788971,
+        "fps": 36.670178779316586,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_195921_1_8": {
+      "metrics": {
+        "visible_iou": 0.6370631712709987,
+        "visible_auc": 0.6304876304876305,
+        "mixed_measure": 0.6374261080997278,
+        "fps": 36.81082930630724,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_200510_1_2": {
+      "metrics": {
+        "visible_iou": 0.7266582994490226,
+        "visible_auc": 0.7159540492873825,
+        "mixed_measure": 0.7269316411495734,
+        "fps": 36.80588050670351,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_200510_1_3": {
+      "metrics": {
+        "visible_iou": 0.7347079008649965,
+        "visible_auc": 0.7230563897230565,
+        "mixed_measure": 0.7349731929641315,
+        "fps": 36.55422347271581,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_200510_1_4": {
+      "metrics": {
+        "visible_iou": 0.7426004677336189,
+        "visible_auc": 0.7307307307307307,
+        "mixed_measure": 0.7428578672658852,
+        "fps": 36.68362513748931,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_200510_1_5": {
+      "metrics": {
+        "visible_iou": 0.7048925735082923,
+        "visible_auc": 0.6951713618380285,
+        "mixed_measure": 0.7051876809347841,
+        "fps": 36.71667271915405,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_200510_1_6": {
+      "metrics": {
+        "visible_iou": 0.7642667423456846,
+        "visible_auc": 0.750655417322084,
+        "mixed_measure": 0.7645024756033391,
+        "fps": 36.02014292125356,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_200510_1_7": {
+      "metrics": {
+        "visible_iou": 0.7537907485045621,
+        "visible_auc": 0.7415510748844083,
+        "mixed_measure": 0.7540369577560575,
+        "fps": 36.426303735102465,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 999
+      },
+      "failure_starts": []
+    },
+    "20190926_200510_1_8": {
+      "metrics": {
+        "visible_iou": 0.7371712086268708,
+        "visible_auc": 0.7249452082088066,
+        "mixed_measure": 0.7167704619140857,
+        "fps": 36.307134672807315,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 478
+      },
+      "failure_starts": []
+    },
+    "3700000000002_091732_1": {
+      "metrics": {
+        "visible_iou": 0.7798193758687826,
+        "visible_auc": 0.7668630670659068,
+        "mixed_measure": 0.7799681465607633,
+        "fps": 36.19687796936872,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 1479
+      },
+      "failure_starts": []
+    },
+    "3700000000002_105009_1": {
+      "metrics": {
+        "visible_iou": 0.7482352381807376,
+        "visible_auc": 0.737283064033513,
+        "mixed_measure": 0.5563560368888943,
+        "fps": 36.61545800722866,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 1114
+      },
+      "failure_starts": [
+        1058
+      ]
+    },
+    "3700000000002_105103_3": {
+      "metrics": {
+        "visible_iou": 0.07431393694674614,
+        "visible_auc": 0.11572910625684645,
+        "mixed_measure": 0.07389066587152719,
+        "fps": 36.46531527404157,
+        "recovery_rate_30": 0.0,
+        "recovery_latency": null,
+        "recovery_unrecovered": 1.0,
+        "recovery_events": 1,
+        "recovery_delays": [
+          null
+        ],
+        "visible_valid_frames": 1478
+      },
+      "failure_starts": [
+        198
+      ]
+    },
+    "3700000000002_105103_6": {
+      "metrics": {
+        "visible_iou": 0.4275031324903612,
+        "visible_auc": 0.4403570634391181,
+        "mixed_measure": 0.4278847970687009,
+        "fps": 36.39748274595669,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 1499
+      },
+      "failure_starts": [
+        879,
+        963,
+        1459
+      ]
+    },
+    "3700000000002_105103_8": {
+      "metrics": {
+        "visible_iou": 0.31088591757590395,
+        "visible_auc": 0.33215002868617327,
+        "mixed_measure": 0.2759043323605336,
+        "fps": 36.40412719978427,
+        "recovery_rate_30": 0.3333333333333333,
+        "recovery_latency": 3.0,
+        "recovery_unrecovered": 0.6666666666666666,
+        "recovery_events": 3,
+        "recovery_delays": [
+          3,
+          null,
+          null
+        ],
+        "visible_valid_frames": 1328
+      },
+      "failure_starts": [
+        523,
+        529,
+        537,
+        608,
+        629,
+        756,
+        896,
+        989,
+        1251,
+        1474
+      ]
+    },
+    "3700000000002_105837_2": {
+      "metrics": {
+        "visible_iou": 0.04978652327469301,
+        "visible_auc": 0.09326852822516599,
+        "mixed_measure": 0.050419998925843215,
+        "fps": 36.42128625559741,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 1499
+      },
+      "failure_starts": [
+        105
+      ]
+    },
+    "3700000000002_110352_1": {
+      "metrics": {
+        "visible_iou": 0.006244580392363066,
+        "visible_auc": 0.05314654213920391,
+        "mixed_measure": 0.006907084005434825,
+        "fps": 36.3479310313817,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 1499
+      },
+      "failure_starts": [
+        15,
+        1488
+      ]
+    },
+    "3700000000002_110743_1": {
+      "metrics": {
+        "visible_iou": 0.026791029352757633,
+        "visible_auc": 0.07216343327454437,
+        "mixed_measure": 0.018027253687253615,
+        "fps": 36.124205175647354,
+        "recovery_rate_30": 0.0,
+        "recovery_latency": null,
+        "recovery_unrecovered": 1.0,
+        "recovery_events": 5,
+        "recovery_delays": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "visible_valid_frames": 972
+      },
+      "failure_starts": [
+        22,
+        30,
+        42,
+        372,
+        658,
+        776,
+        1140,
+        1183,
+        1434
+      ]
+    },
+    "3700000000002_111356_3": {
+      "metrics": {
+        "visible_iou": 0.07579566667245184,
+        "visible_auc": 0.11716621253405995,
+        "mixed_measure": 0.07642480508860403,
+        "fps": 36.15370240250532,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 1468
+      },
+      "failure_starts": [
+        71,
+        91,
+        264,
+        291,
+        336,
+        677
+      ]
+    },
+    "3700000000002_143252_1": {
+      "metrics": {
+        "visible_iou": 0.7877647790850164,
+        "visible_auc": 0.7742622065503986,
+        "mixed_measure": 0.7879062692322929,
+        "fps": 36.482971089055056,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 1499
+      },
+      "failure_starts": []
+    },
+    "3700000000002_143252_3": {
+      "metrics": {
+        "visible_iou": 0.017915869734528102,
+        "visible_auc": 0.0640926640926641,
+        "mixed_measure": 0.018343658138067723,
+        "fps": 36.38144126227187,
+        "recovery_rate_30": 0.0,
+        "recovery_latency": null,
+        "recovery_unrecovered": 1.0,
+        "recovery_events": 5,
+        "recovery_delays": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "visible_valid_frames": 1480
+      },
+      "failure_starts": [
+        36,
+        104,
+        305,
+        314,
+        802,
+        819,
+        907
+      ]
+    },
+    "3700000000002_153139_1": {
+      "metrics": {
+        "visible_iou": 0.2622046778231806,
+        "visible_auc": 0.289516426725729,
+        "mixed_measure": 0.22875524908422315,
+        "fps": 36.17479829076911,
+        "recovery_rate_30": 0.75,
+        "recovery_latency": 4.0,
+        "recovery_unrecovered": 0.25,
+        "recovery_events": 4,
+        "recovery_delays": [
+          3,
+          6,
+          3,
+          null
+        ],
+        "visible_valid_frames": 1290
+      },
+      "failure_starts": [
+        503,
+        1163
+      ]
+    },
+    "3700000000002_162623_2": {
+      "metrics": {
+        "visible_iou": 0.20996704262693577,
+        "visible_auc": 0.2406102121182038,
+        "mixed_measure": 0.20209504956010702,
+        "fps": 36.47535012574482,
+        "recovery_rate_30": 0.0,
+        "recovery_latency": null,
+        "recovery_unrecovered": 1.0,
+        "recovery_events": 3,
+        "recovery_delays": [
+          null,
+          null,
+          null
+        ],
+        "visible_valid_frames": 1439
+      },
+      "failure_starts": [
+        392,
+        432,
+        451,
+        467,
+        495,
+        551,
+        975
+      ]
+    },
+    "new28_train-new": {
+      "metrics": {
+        "visible_iou": 0.4707542079379173,
+        "visible_auc": 0.47879538740112465,
+        "mixed_measure": 0.4711070384659586,
+        "fps": 38.126429380380316,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 1499
+      },
+      "failure_starts": [
+        67,
+        75,
+        97
+      ]
+    },
+    "new29_train-new": {
+      "metrics": {
+        "visible_iou": 0.7300330523973662,
+        "visible_auc": 0.7187966580895199,
+        "mixed_measure": 0.7302130303624346,
+        "fps": 38.322491131968484,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 1499
+      },
+      "failure_starts": []
+    },
+    "new30_train-new": {
+      "metrics": {
+        "visible_iou": 0.6373809974892523,
+        "visible_auc": 0.6357998289136014,
+        "mixed_measure": 0.568360675097094,
+        "fps": 38.60829567995646,
+        "recovery_rate_30": 0.0,
+        "recovery_latency": null,
+        "recovery_unrecovered": 1.0,
+        "recovery_events": 1,
+        "recovery_delays": [
+          null
+        ],
+        "visible_valid_frames": 1336
+      },
+      "failure_starts": [
+        276
+      ]
+    },
+    "new36_train-new": {
+      "metrics": {
+        "visible_iou": 0.5713543002467366,
+        "visible_auc": 0.5701226309921962,
+        "mixed_measure": 0.5701164525792475,
+        "fps": 38.44022707852487,
+        "recovery_rate_30": 0.0,
+        "recovery_latency": null,
+        "recovery_unrecovered": 1.0,
+        "recovery_events": 1,
+        "recovery_delays": [
+          null
+        ],
+        "visible_valid_frames": 1495
+      },
+      "failure_starts": [
+        185,
+        956,
+        1265
+      ]
+    },
+    "new40_train-new": {
+      "metrics": {
+        "visible_iou": 0.7491245145577312,
+        "visible_auc": 0.7380158200705234,
+        "mixed_measure": 0.7492917648813594,
+        "fps": 38.314217402592,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 1499
+      },
+      "failure_starts": [
+        133,
+        190
+      ]
+    },
+    "new8_train-new": {
+      "metrics": {
+        "visible_iou": 0.44176422135588395,
+        "visible_auc": 0.4489659773182122,
+        "mixed_measure": 0.44213637854164667,
+        "fps": 38.08824006948464,
+        "recovery_rate_30": null,
+        "recovery_latency": null,
+        "recovery_unrecovered": null,
+        "recovery_events": 0,
+        "recovery_delays": [],
+        "visible_valid_frames": 1499
+      },
+      "failure_starts": [
+        6,
+        23,
+        217,
+        281,
+        307,
+        411,
+        431,
+        448,
+        476,
+        604,
+        629,
+        695,
+        716,
+        816,
+        830,
+        843,
+        867,
+        921,
+        1156,
+        1208,
+        1226,
+        1357
+      ]
+    }
+  },
+  "definitions": {
+    "initial_frame": "excluded from visible IoU/AUC; included in official mixed score",
+    "recovery": "first legal visible GT after disappearance; third IoU>=0.5 frame confirms",
+    "recovery_window": "30 frames, ending at next disappearance or sequence end",
+    "fps": "original tracker+diagnostics measurement, initialization excluded; historical load",
+    "auc": "21 thresholds from 0 to 1 inclusive, success uses >=",
+    "ci": "10000 bootstrap replicates over sequences"
+  }
+}

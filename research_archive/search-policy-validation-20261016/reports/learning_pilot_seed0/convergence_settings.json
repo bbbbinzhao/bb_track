@@ -1,0 +1,13 @@
+{
+  "seed": 0,
+  "total_supervised_epochs": 10,
+  "episodes_per_epoch": 1024,
+  "batch_size": 4,
+  "resume_from": "each model's original epoch 1 checkpoint",
+  "selection_metric": "mean selected one-step teacher IoU on the sequence-disjoint train development set",
+  "tie_break": "earliest epoch",
+  "official_val_used_for_this_selection": false,
+  "test_used": false,
+  "purpose": "check supervision convergence before interpreting a one-epoch screening result",
+  "validation_scope": "full val for epoch 1 and the internal-development-selected checkpoint; final multi-seed protocol remains separate"
+}

@@ -1,0 +1,79 @@
+{
+  "median_fps": {
+    "sra": 40.990019492416614,
+    "uniform": 38.91102055349047,
+    "event": 39.037298614378756,
+    "event_continue": 39.06017826198514,
+    "aggregate": 38.943598541033204,
+    "fixed8": 39.628171891674135
+  },
+  "runs_fps": {
+    "sra": [
+      40.77291027524598,
+      41.04034027022252,
+      40.990019492416614
+    ],
+    "uniform": [
+      38.91102055349047,
+      38.78439273043246,
+      39.22275724953431
+    ],
+    "event": [
+      39.037298614378756,
+      39.03095449829607,
+      39.169461967657874
+    ],
+    "event_continue": [
+      39.06017826198514,
+      38.857588765617855,
+      39.10300429192134
+    ],
+    "aggregate": [
+      38.943598541033204,
+      38.6507558111608,
+      39.010587281013876
+    ],
+    "fixed8": [
+      39.628171891674135,
+      39.54155115627798,
+      39.64516790688385
+    ]
+  },
+  "frames_per_repeat": 200,
+  "warmup_frames_excluded": 20,
+  "sequence_name": "03_7951_1500-2999",
+  "cpu_affinity": [
+    2
+  ],
+  "repeats": 3,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "cpu_threads": 1,
+  "timing": "tracking and controller; image decoding excluded",
+  "feature_extraction": "disabled for deployed SRA; included for controllers",
+  "policy_checkpoints": [
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/conservative_coverage_seed0/uniform/policy_seed0_ep007.pth",
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/conservative_coverage_seed0/event/policy_seed0_ep004.pth",
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/conservative_coverage_seed0/event_continue/policy_seed0_ep000.pth",
+    "/home/zhaoyoubin/project/project/FocusTrack-main/output/search_policy/conservative_coverage_seed0/aggregate/policy_seed0_ep009.pth"
+  ],
+  "policy_labels": [
+    "uniform",
+    "event",
+    "event_continue",
+    "aggregate"
+  ],
+  "relative_fps_change_percent": {
+    "uniform": -5.071963772329447,
+    "event": -4.763893509245887,
+    "event_continue": -4.70807590318053,
+    "aggregate": -4.992485919071132,
+    "fixed8": -3.32238827306347
+  },
+  "relative_to_fixed8_percent": {
+    "uniform": -1.8097007859561143,
+    "event": -1.4910434902487224,
+    "event_continue": -1.43330767627039,
+    "aggregate": -1.7274916251808214
+  },
+  "scope": "isolated runtime benchmark; full-val accuracy is reported separately"
+}
